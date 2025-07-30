@@ -1,11 +1,13 @@
 # Prerequisites
 *.d
+.vscode
 
 # Compiled Object files
 *.slo
 *.lo
 *.o
 *.obj
+
 
 # Precompiled Headers
 *.gch
@@ -39,3 +41,6 @@
 
 # debug information files
 *.dwo
+
+# Build dir
+/build
