@@ -1,17 +1,17 @@
 #include <opencv2/opencv.hpp>
 #include <iostream>
+#include "preproc/Preprocessor.hpp"
 
 int main() {
-    std::string path = "bw-11.jpg";
-    cv::Mat image = cv::imread(path);
+    std::string path = "./images/webp.webp";
+    cv::Mat img = uploadImage(path);
 
-    if (image.empty()) {
-        std::cerr << " Error: could not load " << path << std::endl;
-        return 1;
+    if(!img.empty()){
+        std::cout << "Image uploaded successfully!" << std::endl;
+        std::cout << "Image size: " << img.size() << std::endl;
+    } else {
+        std::cerr << "Failed to upload image." << std::endl;
     }
-
-    std::cout << " Image loaded successfully!" << std::endl;
-    std::cout << " Dimensions: " << image.cols << " x " << image.rows << std::endl;
 
     return 0;
 }

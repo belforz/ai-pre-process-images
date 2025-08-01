@@ -8,6 +8,10 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
-add_executable(techinician_main_agent src/main.cpp)
+add_executable(techinician_main_agent src/main.cpp
+
+    include/preproc/Upload.cpp
+    include/Logger.cpp
+)
 
 target_link_libraries(techinician_main_agent ${OpenCV_LIBS})
