@@ -29,4 +29,6 @@ class Logger {
 
 };
 
+extern Logger logger;
+
 #endif // LOGGER_HPP

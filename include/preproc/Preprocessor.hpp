@@ -87,7 +87,7 @@ cv::Mat uploadImage(const std::string& imagePath);
     * @throws std::runtime_error if the image is empty or resizing fails.
  */
 
-cv::Mat resizeImage(const cv::Mat& image, processorState& isResolutionCritic );
+cv::Mat resizeImage(const cv::Mat& image, processorState& isResolutionCritic, std::optional<std::string> &outputPath );
 
 
 
@@ -99,7 +99,7 @@ cv::Mat resizeImage(const cv::Mat& image, processorState& isResolutionCritic );
   * @throws std::runtime_error if the image is empty or orientation correction fails.
   */
 
-cv::Mat correctImageOrientation(const cv::Mat& image, processorState& isOrientationCorrected );
+cv::Mat correctImageOrientation(const cv::Mat& image, processorState& isOrientationCorrected, std::optional<int> exifOrientation = std::nullopt);
 
 /**
  * @brief Converts the image to grayscale/RGB/HSV and also its structures.
@@ -107,7 +107,7 @@ cv::Mat correctImageOrientation(const cv::Mat& image, processorState& isOrientat
  * This function converts the input image to grayscale format, correcting RGB or normalizing HSV.
  *
  * @param image Input image (cv::Mat).
- * @return Grayscale image (cv::Mat).
+ * @return struct containing grayscale, RGB, and HSV images.
  * @throws std::runtime_error if the image is empty or conversion fails.
  */
 struct convertedImage {

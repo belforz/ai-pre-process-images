@@ -1,8 +1,7 @@
 #include <opencv2/opencv.hpp>
-#include "Preprocessor.hpp"
+#include "preproc/Preprocessor.hpp"
 #include "Logger.hpp"
 
-Logger logger;
 
 
 cv::Mat uploadImage(const std::string &imagePath)

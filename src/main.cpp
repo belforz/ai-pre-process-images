@@ -1,16 +1,40 @@
 #include <opencv2/opencv.hpp>
-#include <iostream>
 #include "preproc/Preprocessor.hpp"
+#include "Logger.hpp"
+#include <optional>
+#include <vector>
+#include <string>
+#include <iostream>
 
 int main() {
-    std::string path = "./images/webp.webp";
-    cv::Mat img = uploadImage(path);
+    // Lista de imagens e EXIF simulados (nullopt para heurística)
+    std::vector<std::pair<std::string, std::optional<int>>> images = {
+        {"./images/exif_1.jpg", 1},
+        {"./images/exif_6.jpg", 6},
+        {"./images/exif_3.jpg", 3},
+        {"./images/exif_8.jpg", 8},
+        {"./images/heuristic_no_face.jpg", std::nullopt}
+    };
 
-    if(!img.empty()){
-        std::cout << "Image uploaded successfully!" << std::endl;
-        std::cout << "Image size: " << img.size() << std::endl;
-    } else {
-        std::cerr << "Failed to upload image." << std::endl;
+    for (size_t i = 0; i < images.size(); ++i) {
+        const auto& [path, exifValue] = images[i];
+        cv::Mat image = cv::imread(path);
+
+        if (image.empty()) {
+            std::cerr << "Failed to load image: " << path << std::endl;
+            continue;
+        }
+
+        processorState state;
+        cv::Mat corrected = correctImageOrientation(image, state, exifValue);
+
+        std::string outName = "./images/temp/corrected_" + std::to_string(i+1) + ".jpg";
+        cv::imwrite(outName, corrected);
+        logger.log("Image saved to: " + outName, LogLevel::INFO);
+
+        std::cout << "Processed " << path << " -> " << outName
+                  << " | Orientation corrected? " << (state.isOrientationCorrected ? "Yes" : "No") << std::endl;
+
     }
 
     return 0;
