@@ -1,0 +1,31 @@
+{
+    "aspect_ratio": 1.3333333333333333,
+    "color_space": "",
+    "dimensions": [
+        800,
+        600
+    ],
+    "exif_orientation": "",
+    "filename": "stickman_800x600.png",
+    "hash": "a97a0da6b757ebd9665fa27b8c51cfe8c6689fc635865d392848f42461e4c508",
+    "image_type": "unknown",
+    "original_format": ".png",
+    "preproc_state": {
+        "color_spaces_generated": false,
+        "compression_type": "",
+        "error_msg": "",
+        "has_compressed_image": false,
+        "has_exif_data": false,
+        "is_image_resized": false,
+        "is_image_valid": false,
+        "is_normalized": false,
+        "is_orientation_corrected": false,
+        "is_resolution_critic": false,
+        "orientation_method": "",
+        "original_filename": "",
+        "saturated": "",
+        "thumbnail_generated": false,
+        "underexposed": ""
+    },
+    "source": ""
+}

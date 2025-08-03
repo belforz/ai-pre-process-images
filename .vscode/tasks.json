@@ -22,7 +22,7 @@
     {
       "label": "Execute",
       "type": "shell",
-      "command": "./techinician_main_agent",
+      "command": "./build/techinician_main_agent",
       "dependsOn": [
         "Build C++"
       ],
@@ -36,20 +36,16 @@
     {
       "label": "Build and Run",
       "type": "shell",
-      "command": "./techinician_main_agent",
+      "command": "./build/techinician_main_agent",
       "args":[
-        "images/exif_1.jpg","1",
-        "images/exif_3.jpg","3",
-        "images/exif_6.jpg","6",
-        "images/exif_8.jpg","8",
-        "images/heuristic_no_face.jpg",
-        "images/img_8bit.png",
-        "images/img16bit.tiff",
-        "images/img_alert_saturation.png",
-        "images/img_alta.jpg",
-        "images/img_baixa.jpg",
-        "images/img_media.jpg",
-        "images/img_compressed_jpeg.jpg"
+        "images/rgb_critically_low.png",
+        "images/rgb_exif3_8bit.jpg","3",
+        "images/stickman_800x600.png",
+        "images/rgb_exif1_32bit.tiff","1",
+        "images/rgb_exif1_32bit_fixed.tiff","1",
+        "images/rgb_exif3_8bit.jpg","6",
+        "images/rgb_exif6_8bit.png","8",
+        "images/rgb_exif8_16bit.tiff","8",
       ],
       "dependsOn": [
         "Build C++"

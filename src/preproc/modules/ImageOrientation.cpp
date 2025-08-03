@@ -9,7 +9,7 @@
 
 const std::string FACE_CASCADE_PATH = "/usr/share/opencv4/haarcascades/haarcascade_frontalface_default.xml";
 
-cv::Mat correctImageOrientation(const cv::Mat& image, processorState& state, std::optional<int> exifOrientation, const std::string &imagePath) {
+cv::Mat correctImageOrientation(const cv::Mat& image, processorState& state, std::optional<int> exifOrientation) {
     cv::Mat correctedImage = image.clone();
     try {
 
@@ -30,28 +30,68 @@ cv::Mat correctImageOrientation(const cv::Mat& image, processorState& state, std
             std::string savePath = pathutils::join(orientedDir, filename);
 
             switch (exifOrientation.value()) {
+                case 1:
+                    // Normal
+                    logger.log("EXIF 1: Normal orientation, no correction applied.", LogLevel::INFO);
+                    break;
+                case 2:
+                    // Horizontal flip
+                    cv::flip(correctedImage, correctedImage, 1);
+                    state.is_orientation_corrected = true;
+                    logger.log("Image orientation corrected: horizontal flip (EXIF 2)", LogLevel::INFO);
+                    cv::imwrite(savePath, correctedImage);
+                    break;
                 case 3:
+                    // Rotate 180 degrees
                     cv::rotate(correctedImage, correctedImage, cv::ROTATE_180);
                     state.is_orientation_corrected = true;
-                    logger.log("Image orientation corrected: 180 degrees rotation", LogLevel::INFO);
+                    logger.log("Image orientation corrected: 180 degrees rotation (EXIF 3)", LogLevel::INFO);
+                    cv::imwrite(savePath, correctedImage);
+                    break;
+                case 4:
+                    // Vertical flip
+                    cv::flip(correctedImage, correctedImage, 0);
+                    state.is_orientation_corrected = true;
+                    logger.log("Image orientation corrected: vertical flip (EXIF 4)", LogLevel::INFO);
+                    cv::imwrite(savePath, correctedImage);
+                    break;
+                case 5:
+                    // Horizontal flip + 90° CCW
+                    cv::flip(correctedImage, correctedImage, 1);
+                    cv::rotate(correctedImage, correctedImage, cv::ROTATE_90_COUNTERCLOCKWISE);
+                    state.is_orientation_corrected = true;
+                    logger.log("Image orientation corrected: horizontal flip + 90° CCW (EXIF 5)", LogLevel::INFO);
                     cv::imwrite(savePath, correctedImage);
                     break;
                 case 6:
+                    // 90° CCW
                     cv::rotate(correctedImage, correctedImage, cv::ROTATE_90_COUNTERCLOCKWISE);
                     state.is_orientation_corrected = true;
-                    logger.log("Image orientation corrected: 90 degrees counterclockwise rotation", LogLevel::INFO);
+                    logger.log("Image orientation corrected: 90 degrees counterclockwise rotation (EXIF 6)", LogLevel::INFO);
+                    cv::imwrite(savePath, correctedImage);
+                    break;
+                case 7:
+                    // horizontal flip + 90° CW
+                    cv::flip(correctedImage, correctedImage, 1);
+                    cv::rotate(correctedImage, correctedImage, cv::ROTATE_90_CLOCKWISE);
+                    state.is_orientation_corrected = true;
+                    logger.log("Image orientation corrected: horizontal flip + 90° CW (EXIF 7)", LogLevel::INFO);
                     cv::imwrite(savePath, correctedImage);
                     break;
                 case 8:
+                    // 90° CW
                     cv::rotate(correctedImage, correctedImage, cv::ROTATE_90_CLOCKWISE);
                     state.is_orientation_corrected = true;
-                    logger.log("Image orientation corrected: 90 degrees clockwise rotation", LogLevel::INFO);
+                    logger.log("Image orientation corrected: 90 degrees clockwise rotation (EXIF 8)", LogLevel::INFO);
                     cv::imwrite(savePath, correctedImage);
                     break;
                 default:
                     logger.log("Unhandled EXIF orientation: " + std::to_string(exifOrientation.value()), LogLevel::WARNING);
             }
-            logger.log("Oriented image saved at: " + savePath, LogLevel::INFO);
+
+            if (exifOrientation.value() == 3 || exifOrientation.value() == 6 || exifOrientation.value() == 8) {
+                logger.log("Oriented image saved at: " + savePath, LogLevel::INFO);
+            }
             return correctedImage;
         }
 
