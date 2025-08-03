@@ -68,16 +68,23 @@ cv::Mat normalizeImage(const cv::Mat &image, processorState &state)
             gray = imgNormalized;
         }
 
-        int saturated = cv::countNonZero(gray > 250);
-        int underexposed = cv::countNonZero(gray < 5);
+        // Explicit masks
+        cv::Mat maskSaturated = (gray >= 250);
+        cv::Mat maskUnderexposed = (gray <= 5);
 
-        state.saturated = saturated > 0 ? "Image has saturated pixels." : "";
-        state.underexposed = underexposed > 0 ? "Image has underexposed pixels." : "";
+        int saturated = cv::countNonZero(maskSaturated);
+        int underexposed = cv::countNonZero(maskUnderexposed);
 
-        if (!state.saturated.empty())
-            logger.log(state.saturated, LogLevel::WARNING);
-        if (!state.underexposed.empty())
-            logger.log(state.underexposed, LogLevel::WARNING);
+        // Update its state to explicit values
+        state.saturated_pixel_count = saturated;
+        state.underexposed_pixel_count = underexposed;
+        state.has_satured_pixels = saturated > 0;
+        state.has_underexposed_pixels = underexposed > 0;
+
+        if (state.has_satured_pixels)
+            logger.log("Image has saturated pixels. Count: " + std::to_string(saturated), LogLevel::WARNING);
+        if (state.has_underexposed_pixels)
+            logger.log("Image has underexposed pixels. Count: " + std::to_string(underexposed), LogLevel::WARNING);
 
         return imgNormalized;
     }

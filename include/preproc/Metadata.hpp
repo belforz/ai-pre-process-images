@@ -19,12 +19,12 @@ struct PreprocessorState
     // bool blur_generated = false;
     bool color_spaces_generated = false;
     bool is_normalized = false;
+    bool has_satured_pixels = false;
+    bool has_underexposed_pixels = false;
 
     std::string original_filename;
 
     // Diagnostics and messages
-    std::string saturated;
-    std::string underexposed;
     std::string error_msg;
 
     // Compression diagnostics
@@ -32,6 +32,10 @@ struct PreprocessorState
 
     // Orientation diagnostics
     std::string orientation_method;
+
+    // saturated pixels
+    int saturated_pixel_count = 0;
+    int underexposed_pixel_count = 0;
 
     // Blur diagnostics
     // std::string blur_type;

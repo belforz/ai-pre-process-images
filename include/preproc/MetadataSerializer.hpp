@@ -19,8 +19,10 @@ inline void to_json(nlohmann::json &j, const PreprocessorState &p)
         {"original_filename", p.original_filename},
 
         // Diagnostics
-        {"saturated", p.saturated},
-        {"underexposed", p.underexposed},
+        {"has_saturated", p.has_satured_pixels},
+        {"has_underexposed", p.has_underexposed_pixels},
+        {"saturated_pixel_count", p.saturated_pixel_count},
+        {"underexposed_pixel_count", p.underexposed_pixel_count},
         {"error_msg", p.error_msg},
         {"compression_type", p.compression_type},
         {"orientation_method", p.orientation_method}
@@ -42,8 +44,10 @@ inline void from_json(const nlohmann::json &j, PreprocessorState &p)
     j.at("original_filename").get_to(p.original_filename);
 
     // Diagnostics
-    j.at("saturated").get_to(p.saturated);
-    j.at("underexposed").get_to(p.underexposed);
+    j.at("has_saturated").get_to(p.has_satured_pixels);
+    j.at("has_underexposed").get_to(p.has_underexposed_pixels);
+    j.at("saturated_pixel_count").get_to(p.saturated_pixel_count);
+    j.at("underexposed_pixel_count").get_to(p.underexposed_pixel_count);
     j.at("error_msg").get_to(p.error_msg);
     j.at("compression_type").get_to(p.compression_type);
     j.at("orientation_method").get_to(p.orientation_method);
