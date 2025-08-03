@@ -1,6 +1,6 @@
 # Prerequisites
 *.d
-.vscode
+
 
 # Compiled Object files
 *.slo
@@ -44,3 +44,6 @@
 
 # Build dir
 /build
+
+#env
+*.env

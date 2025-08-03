@@ -1,79 +1,38 @@
-
 #ifndef PREPROCESSOR_HPP
 #define PREPROCESSOR_HPP
 
 #include <opencv2/opencv.hpp>
 #include <optional>
-
-
-/**
- * @brief Represents the state of the preprocessor during image processing.
- *
- * This structure holds flags that indicate the status of various preprocessing steps.
- * for the technician understands the current state of the image was processed or not.
- */
- struct PreprocessorState {
-     bool isImageValid = false;
-     bool isImageResized = false;
-     bool isResolutionCritic = false;
-     bool hasEXIFData = false;
-     bool isOrientationCorrected = false;
-     bool hasCompressedImage = false;
-     bool thumbnailGenerated = false;
-
-     std::string errorMsg = "";
- };
-using processorState = PreprocessorState;
-
-
-/**
- * @brief Represents metadata associated with an image.
- *
- * This structure holds information about the image such as filename, hash, dimensions,
- * aspect ratio, original format, and type. It also includes flags indicating the state
- * of preprocessing.
- */
-
-struct ImageMetadata {
-    std::string filename;
-    std::string hash; // SHA-256
-    int width;
-    int height;
-    double aspectRatio;
-    std::string originalFormat;
-    std::string imageType; 
-    PreprocessorState flags;
-
-};
+#include <preproc/Metadata.hpp>
 
 //  -------------------------- comment before public function -------------------------
 /**
-     * @brief Resume something
-     *
-     * Comments should be clear and concise, explaining the purpose of the function.
-     *
-     * @param description of the param description
-     * @return result of the function
-     * @throws std::runtime_error if an error occurs
-        * @note Additional notes about the function, if necessary.
-     */
+ * @brief Resume something
+ *
+ * Comments should be clear and concise, explaining the purpose of the function.
+ *
+ * @param description of the param description
+ * @return result of the function
+ * @throws std::runtime_error if an error occurs
+ * @note Additional notes about the function, if necessary.
+ */
 
-    //  cv::something something(const something& something)
+//  cv::something something(const something& something)
 
 //  -------------------------- comment before public function -------------------------
 
 /**
-     * @brief Loads an image from disk with extension and integrity validation.
-     *
-     * Accepts files in the following formats: .jpg, .jpeg, .png, .tiff, .webp.
-     * Automatically converts .webp files to .png.
-     * Rejects RAW files (.cr2, .nef, .arw) with a warning to the user.
-     *
-     * @param imagePath Full path to the image.
-     * @return Loaded image as cv::Mat.
-     * @throws std::runtime_error if the extension is invalid or the file is corrupted.
-     */
-cv::Mat uploadImage(const std::string& imagePath);
+ * @brief Loads an image from disk with extension and integrity validation.
+ *
+ * Accepts files in the following formats: .jpg, .jpeg, .png, .tiff, .webp.
+ * Automatically converts .webp files to .png.
+ * Rejects RAW files (.cr2, .nef, .arw) with a warning to the user.
+ *
+ * @param imagePath Full path to the image.
+ * @return Loaded image as cv::Mat.
+ * @throws std::runtime_error if the extension is invalid or the file is corrupted.
+ */
+cv::Mat uploadImage(const std::string &imagePath);
 
 /**
  * @brief Resize the image proportionally if necessary and validate resolution quality.
@@ -84,22 +43,20 @@ cv::Mat uploadImage(const std::string& imagePath);
  * @param imagem Input image (cv::Mat).
  * @param resolutionCritic Flag set to true if the image is considered critically low resolution.
  * @return Resized image (or original if resizing not required).
-    * @throws std::runtime_error if the image is empty or resizing fails.
+ * @throws std::runtime_error if the image is empty or resizing fails.
  */
 
-cv::Mat resizeImage(const cv::Mat& image, processorState& isResolutionCritic, std::optional<std::string> &outputPath );
-
-
+cv::Mat resizeImage(const cv::Mat &image, processorState &isResolutionCritic, std::optional<std::string> &outputPath);
 
 /**
-  * @brief Corrects the image orientation based on EXIF data, if absent, uses heuristics
-  * @param image Input image (cv::Mat).
-  * @param isOrientationCorrected Flag set to true if the orientation was corrected.
-  * @return Image with corrected orientation.
-  * @throws std::runtime_error if the image is empty or orientation correction fails.
-  */
+ * @brief Corrects the image orientation based on EXIF data, if absent, uses heuristics
+ * @param image Input image (cv::Mat).
+ * @param isOrientationCorrected Flag set to true if the orientation was corrected.
+ * @return Image with corrected orientation.
+ * @throws std::runtime_error if the image is empty or orientation correction fails.
+ */
 
-cv::Mat correctImageOrientation(const cv::Mat& image, processorState& isOrientationCorrected, std::optional<int> exifOrientation = std::nullopt);
+cv::Mat correctImageOrientation(const cv::Mat &image, processorState &isOrientationCorrected, std::optional<int> exifOrientation = std::nullopt);
 
 /**
  * @brief Converts the image to grayscale/RGB/HSV and also its structures.
@@ -110,17 +67,23 @@ cv::Mat correctImageOrientation(const cv::Mat& image, processorState& isOrientat
  * @return struct containing grayscale, RGB, and HSV images.
  * @throws std::runtime_error if the image is empty or conversion fails.
  */
-struct convertedImage {
+struct convertedImage
+{
     cv::Mat grayImage;
     cv::Mat rgbImage;
     cv::Mat hsvImage;
+    cv::Mat labImage;
+    cv::Mat ycrcbImage;
+    cv::Mat luvImage;
 };
 
-cv::Mat toGray(const cv::Mat& image);
-cv::Mat toRGB(const cv::Mat& image);
-cv::Mat toHSV(const cv::Mat& image);
-convertedImage generateColorSpaces(const cv::Mat& image);
-
+cv::Mat toGray(const cv::Mat &image, convertedImage &converted);
+cv::Mat toRGB(const cv::Mat &image, convertedImage &converted);
+cv::Mat toHSV(const cv::Mat &image, convertedImage &converted);
+cv::Mat toLab(const cv::Mat &image, convertedImage &converted);
+cv::Mat toYCrCb(const cv::Mat &image, convertedImage &converted);
+cv::Mat toLuv(const cv::Mat &image, convertedImage &converted);
+convertedImage generateColorSpaces(const cv::Mat &image, processorState &state);
 
 /**
  * @brief Normalizes the image by diagnosting brightness and contrast.
@@ -130,25 +93,20 @@ convertedImage generateColorSpaces(const cv::Mat& image);
     * @throws std::runtime_error if the image is empty or normalization fails.
  */
 
-cv::Mat normalizeImage(const cv::Mat& image);
-
+cv::Mat normalizeImage(const cv::Mat &image, processorState &state);
 
 /**
- * @brief Checks if the image is compressed based on its extension and MIME type.
- *
- * This function determines if the image is compressed by checking its file extension
- * and optionally its MIME type. It sets a flag in the processorState structure.
- *
+ * @brief Checks if the image is compressed based on file extension and binary header.
+ * This function checks the file extension and reads the binary header to determine if the image is compressed.
+ * It supports JPEG, WEBP, and other common formats.
  * @param image Input image (cv::Mat).
- * @param compressedFlag Flag to indicate if the image is compressed.
- * @param imageExtension File extension of the image.
- * @param MIME Optional MIME type of the image.
- * @return Compressed image (cv::Mat) or original if not compressed.
- * @throws std::runtime_error if the image is empty or compression check fails.
+ * @param state Processor state to update compression status.
+ * @param imagePathOrExt Path or extension of the image file.
+ * @return cv::Mat containing the original image if compression is detected, or an empty cv
+ * ::Mat if the image is empty or an error occurs.
  */
 
-
-cv::Mat IsCompressed(const cv::Mat& image, processorState& compressedFlag, const std::string& imageExtension, const std::optional<cv::Mat>& MIME );
+void IsCompressed(const cv::Mat &image, processorState &state, const std::string &imagePathOrExt);
 
 /**
  * @brief Generates a copy of the image with a thumbnail flag. // THIS FUNCTION IS OPTIONAL
@@ -161,35 +119,45 @@ cv::Mat IsCompressed(const cv::Mat& image, processorState& compressedFlag, const
  * @return Copy of the input image (cv::Mat).
  * @throws std::runtime_error if the image is empty or copying fails.
  */
-struct thumbnailGenerated{
+struct thumbnailGenerated
+{
     cv::Mat thumbnailImage;
     cv::Mat blurImage; // this wont be used in V1, but it is here for future use
-    
 };
 
-cv::Mat generateCopy(const cv::Mat& image, processorState& thumbnailFlag);
+cv::Mat generateCopy(const cv::Mat &image, processorState &thumbnailFlag);
+
+/**
+ * @brief Generates a blur copy of the image // THIS FUNCTION IS DISHABILITED FOR APP PURPOSES in V1.
+ * This function creates a copy of the input image and applies varieties of blur calculations to inspect various
+ * dimensions of the image, it stars to use GRAYSCALE to be more precisve with its results.
+ *
+ * @param image Input imag (cv::Mat).
+ * @return copy of the input image(cv::Mat).
+ * @throws std::runtime_error if the image is empty or copying fails.
+ */
+
+struct blurVarieties
+{
+    cv::Mat gaussian;
+    cv::Mat median;
+    cv::Mat bilateral;
+    cv::Mat laplacian;
+};
+
+/** @brief Applies blur depending on Gaussian, Median, Bilateral & Laplacian to the image.
+ * This function applies Gaussian blur to the input image and stores the result in the blurVarieties
+ * structure.
+ * @param image Input image (cv::Mat).
+ * @param blur Reference to the blurVarieties structure to store the blurred image.
+ * @return Blurred image (cv::Mat).
+ * @throws std::runtime_error if the image is empty or blurring fails.
+ */
+
+cv::Mat toGaussian(const cv::Mat &image, blurVarieties &blur);
+cv::Mat toMedian(const cv::Mat &image, blurVarieties &blur);
+cv::Mat toBilateral(const cv::Mat &image, blurVarieties &blur);
+cv::Mat toLaplacian(const cv::Mat &image, blurVarieties &blur);
+blurVarieties generateBlurCopy(const cv::Mat &image);
 
 #endif // PREPROCESSOR_HPP
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-
-

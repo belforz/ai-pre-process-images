@@ -1,41 +1,38 @@
 #include <opencv2/opencv.hpp>
-#include "preproc/Preprocessor.hpp"
+#include "preproc/PreProcessingPipeline.hpp"
 #include "Logger.hpp"
-#include <optional>
-#include <vector>
 #include <string>
 #include <iostream>
+#include <nlohmann/json.hpp>
+#include "preproc/Metadata.hpp"
+#include "preproc/MetadataSerializer.hpp"
+#include <vector>
 
-int main() {
-    // Lista de imagens e EXIF simulados (nullopt para heurística)
-    std::vector<std::pair<std::string, std::optional<int>>> images = {
-        {"./images/exif_1.jpg", 1},
-        {"./images/exif_6.jpg", 6},
-        {"./images/exif_3.jpg", 3},
-        {"./images/exif_8.jpg", 8},
-        {"./images/heuristic_no_face.jpg", std::nullopt}
-    };
-
-    for (size_t i = 0; i < images.size(); ++i) {
-        const auto& [path, exifValue] = images[i];
-        cv::Mat image = cv::imread(path);
-
-        if (image.empty()) {
-            std::cerr << "Failed to load image: " << path << std::endl;
-            continue;
-        }
-
-        processorState state;
-        cv::Mat corrected = correctImageOrientation(image, state, exifValue);
-
-        std::string outName = "./images/temp/corrected_" + std::to_string(i+1) + ".jpg";
-        cv::imwrite(outName, corrected);
-        logger.log("Image saved to: " + outName, LogLevel::INFO);
-
-        std::cout << "Processed " << path << " -> " << outName
-                  << " | Orientation corrected? " << (state.isOrientationCorrected ? "Yes" : "No") << std::endl;
-
+int main(int argc, char* argv[]) {
+    if (argc < 2) {
+        std::cout << "Usage: " << argv[0] << " <img1> [exif1] <img2> [exif2] ..." << std::endl;
+        return 1;
     }
 
+    for (int i = 1; i < argc; ) {
+        std::string imagePath = argv[i];
+        std::optional<int> exifOrientation = std::nullopt;
+        if (i + 1 < argc && std::isdigit(argv[i + 1][0])) {
+            exifOrientation = std::stoi(argv[i + 1]);
+            i += 2;
+        } else {
+            i += 1;
+        }
+        std::cout << "\n=== Processing: " << imagePath;
+        if (exifOrientation) std::cout << " (EXIF: " << *exifOrientation << ")";
+        std::cout << " ===\n";
+        try {
+            ImageMetadata metadata = runPreprocessingPipeline(imagePath, exifOrientation);
+            nlohmann::json j = metadata;
+            std::cout << "Pipeline result:\n" << j.dump(4) << std::endl;
+        } catch (const std::exception& e) {
+            std::cerr << "Error processing image " << imagePath << ": " << e.what() << std::endl;
+        }
+    }
     return 0;
 }

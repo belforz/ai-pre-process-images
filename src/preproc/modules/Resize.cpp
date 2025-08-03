@@ -3,13 +3,15 @@
 #include <string>
 #include <iostream>
 #include "preproc/Preprocessor.hpp"
+#include "preproc/Metadata.hpp"
 #include "Logger.hpp"
+#include "pathsUtils.hpp"
 
 cv::Mat resizeImage(const cv::Mat &image, processorState &state, std::optional<std::string> &outputPath) {
     try {
         if (image.empty()) {
             logger.log("Input image is empty.", LogLevel::ERROR);
-            state.isImageValid = false;
+            state.is_image_valid = false;
             outputPath.reset();
             return cv::Mat();
         }
@@ -18,13 +20,13 @@ cv::Mat resizeImage(const cv::Mat &image, processorState &state, std::optional<s
         int height = image.rows;
         int maxSide = std::max(width, height);
 
-        state.isImageValid = true;
-        state.isImageResized = false;
-        state.isResolutionCritic = false;
+        state.is_image_valid = true;
+        state.is_image_resized = false;
+        state.is_resolution_critic = false;
 
         if (width < 640 || height < 480) {
             logger.log("Image resolution is critically low.", LogLevel::WARNING);
-            state.isResolutionCritic = true;
+            state.is_resolution_critic = true;
             outputPath.reset();
             return image;
         }
@@ -36,8 +38,16 @@ cv::Mat resizeImage(const cv::Mat &image, processorState &state, std::optional<s
             cv::Mat resized;
             cv::resize(image, resized, cv::Size(newWidth, newHeight), 0, 0, cv::INTER_LANCZOS4);
             logger.log("Image resized to " + std::to_string(newWidth) + "x" + std::to_string(newHeight), LogLevel::INFO);
-            state.isImageResized = true;
-            outputPath = "./images/resized_output_" + std::to_string(width) + "x" + std::to_string(height) + ".png";
+            state.is_image_resized = true;
+
+            // Use pathutils 
+            std::string resizedDir = "./images/temp/resized";
+            pathutils::ensureDirectory(resizedDir);
+            std::string baseName = pathutils::getFilenameWithoutExtension(state.original_filename.empty() ? "image" : state.original_filename);
+            std::string filename = baseName + "_resized" + + ".png";
+            outputPath = pathutils::join(resizedDir, filename);
+            cv::imwrite(*outputPath, resized);
+
             return resized;
         }
 
