@@ -16,16 +16,19 @@
         "error_msg": "",
         "has_compressed_image": false,
         "has_exif_data": false,
+        "has_saturated": false,
+        "has_underexposed": false,
         "is_image_resized": false,
         "is_image_valid": false,
         "is_normalized": false,
         "is_orientation_corrected": false,
         "is_resolution_critic": false,
         "orientation_method": "",
+        "orientation_uncertain": false,
         "original_filename": "",
-        "saturated": "",
+        "saturated_pixel_count": 0,
         "thumbnail_generated": false,
-        "underexposed": ""
+        "underexposed_pixel_count": 0
     },
     "source": ""
 }

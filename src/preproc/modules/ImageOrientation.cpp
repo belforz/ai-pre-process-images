@@ -10,7 +10,7 @@
 const std::string FACE_CASCADE_PATH = "/usr/share/opencv4/haarcascades/haarcascade_frontalface_default.xml";
 
 cv::Mat correctImageOrientation(const cv::Mat& image, processorState& state, std::optional<int> exifOrientation) {
-    cv::Mat correctedImage = image.clone();
+    cv::Mat correctedImage = image;
     try {
 
         if(image.empty()){
@@ -99,8 +99,12 @@ cv::Mat correctImageOrientation(const cv::Mat& image, processorState& state, std
 
         cv::CascadeClassifier faceCascade;
         if (faceCascade.load(FACE_CASCADE_PATH)) {
+            cv::Mat resized;
+            int newWidth = 500;
+            int newHeight = static_cast<int>(correctedImage.rows * 500.0 / correctedImage.cols);
+            cv::resize(correctedImage, resized, cv::Size(newWidth, newHeight));
             cv::Mat gray;
-            cv::cvtColor(correctedImage, gray, cv::COLOR_BGR2GRAY);
+            cv::cvtColor(resized, gray, cv::COLOR_BGR2GRAY);
             std::vector<cv::Rect> faces;
             faceCascade.detectMultiScale(gray, faces, 1.1, 3, 0, cv::Size(30, 30));
 
@@ -142,6 +146,11 @@ cv::Mat correctImageOrientation(const cv::Mat& image, processorState& state, std
             logger.log("Oriented image saved at: " + savePath, LogLevel::INFO);
         } else {
             logger.log("General heuristic: image orientation considered correct. No rotation applied.", LogLevel::INFO);
+        }
+
+        if (!state.is_orientation_corrected) {
+            state.orientation_uncertain = true;
+            logger.log("Orientation remains uncertain after all correction attempts.", LogLevel::WARNING);
         }
 
         return correctedImage;

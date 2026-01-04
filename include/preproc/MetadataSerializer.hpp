@@ -12,6 +12,7 @@ inline void to_json(nlohmann::json &j, const PreprocessorState &p)
         {"is_resolution_critic", p.is_resolution_critic},
         {"has_exif_data", p.has_exif_data},
         {"is_orientation_corrected", p.is_orientation_corrected},
+        {"orientation_uncertain", p.orientation_uncertain},
         {"has_compressed_image", p.has_compressed_image},
         {"thumbnail_generated", p.thumbnail_generated},
         {"color_spaces_generated", p.color_spaces_generated},
@@ -37,6 +38,7 @@ inline void from_json(const nlohmann::json &j, PreprocessorState &p)
     j.at("is_resolution_critic").get_to(p.is_resolution_critic);
     j.at("has_exif_data").get_to(p.has_exif_data);
     j.at("is_orientation_corrected").get_to(p.is_orientation_corrected);
+    j.at("orientation_uncertain").get_to(p.orientation_uncertain);
     j.at("has_compressed_image").get_to(p.has_compressed_image);
     j.at("thumbnail_generated").get_to(p.thumbnail_generated);
     j.at("color_spaces_generated").get_to(p.color_spaces_generated);

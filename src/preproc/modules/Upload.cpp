@@ -37,6 +37,10 @@ cv::Mat uploadImage(const std::string &imagePath)
                 logger.log("Failed to upload image: " + path, LogLevel::ERROR);
                 throw std::runtime_error("Failed to upload image: " + path);
             }
+            if (webpImage.channels() == 4) {
+                cv::cvtColor(webpImage, webpImage, cv::COLOR_BGRA2BGR);
+                logger.log("Flattened alpha channel from .webp image.", LogLevel::INFO);
+            }
             std::string pngPath = path.substr(0, path.size() - 5) + ".png";
             logger.log("Converting .webp to .png: " + pngPath, LogLevel::INFO);
             bool success = cv::imwrite(pngPath, webpImage);

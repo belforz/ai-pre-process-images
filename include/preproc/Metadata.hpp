@@ -14,6 +14,7 @@ struct PreprocessorState
     bool is_resolution_critic = false;
     bool has_exif_data = false;
     bool is_orientation_corrected = false;
+    bool orientation_uncertain = false;
     bool has_compressed_image = false;
     bool thumbnail_generated = false;
     // bool blur_generated = false;
