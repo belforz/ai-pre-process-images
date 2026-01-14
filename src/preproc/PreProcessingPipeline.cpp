@@ -10,6 +10,61 @@
 
 namespace fs = std::filesystem;
 
+void updateImagesIndex(const std::vector<std::tuple<std::string, std::string, int, std::string>> &imageEntries)
+{
+    std::string indexPath = "local/images_index.json";
+    nlohmann::json index;
+    
+    // Read existing index if it exists
+    std::ifstream inFile(indexPath);
+    if (inFile.is_open()) {
+        try {
+            inFile >> index;
+        } catch (const std::exception &) {
+            index = nlohmann::json::object();
+        }
+        inFile.close();
+    } else {
+        index = nlohmann::json::object();
+    }
+    
+    // Ensure "images" array exists
+    if (!index.contains("images")) {
+        index["images"] = nlohmann::json::array();
+    }
+    
+    for (const auto &[path, type, exif, filename] : imageEntries) {
+        // Check if already exists
+        bool exists = false;
+        for (const auto &img : index["images"]) {
+            if (img.contains("path") && img["path"] == path) {
+                exists = true;
+                break;
+            }
+        }
+        if (!exists) {
+            logger.log("Adding to images index: " + path + " type: " + type, LogLevel::INFO);
+            nlohmann::json newEntry = {
+                {"path", path},
+                {"type", type},
+                {"exif_orientation", exif},
+                {"filename", filename}
+            };
+            index["images"].push_back(newEntry);
+        }
+    }
+    
+    // Write back
+    std::ofstream outFile(indexPath);
+    if (outFile.is_open()) {
+        outFile << index.dump(4);
+        outFile.close();
+        logger.log("Updated images index: " + indexPath, LogLevel::INFO);
+    } else {
+        logger.log("Failed to write images index: " + indexPath, LogLevel::ERROR);
+    }
+}
+
 int exifOrientationFromJson(const std::string &jsonPath)
 {
     std::ifstream f(jsonPath);
@@ -26,6 +81,7 @@ ImageMetadata runPreprocessingPipeline(const std::string &imagePath, std::option
 {
     ImageMetadata metadata;
     PreprocessorState state;
+    std::vector<std::tuple<std::string, std::string, int, std::string>> imageEntries;
     try
     {
         logger.log("Starting preprocessing pipeline for: " + imagePath, LogLevel::SECTION);
@@ -47,6 +103,9 @@ ImageMetadata runPreprocessingPipeline(const std::string &imagePath, std::option
         metadata.original_format = fs::path(imagePath).extension().string();
         metadata.image_type = "unknown";
 
+        // Add original image
+        imageEntries.emplace_back(pathutils::getAbsolutePath(imagePath), "original", exifOrientation.value_or(1), metadata.filename);
+
         // 2. RESIZE
         logger.log("Resizing image if necessary", LogLevel::INFO);
         std::optional<std::string> outputPath = std::nullopt;
@@ -61,6 +120,9 @@ ImageMetadata runPreprocessingPipeline(const std::string &imagePath, std::option
         {
             state.is_image_resized = true;
             logger.log("Image resized successfully.", LogLevel::INFO);
+            if (outputPath) {
+                imageEntries.emplace_back(pathutils::getAbsolutePath(*outputPath), "resized", exifOrientation.value_or(1), metadata.filename);
+            }
         }
 
         // 3. NORMALIZE
@@ -105,6 +167,15 @@ ImageMetadata runPreprocessingPipeline(const std::string &imagePath, std::option
         {
             state.color_spaces_generated = true;
             logger.log("Color spaces generated successfully.", LogLevel::INFO);
+            // Add color space images
+            std::string baseDir = "./images/temp/color_spaces";
+            std::string baseName = pathutils::getFilenameWithoutExtension(metadata.filename);
+            imageEntries.emplace_back(pathutils::getAbsolutePath(pathutils::join(baseDir, baseName + "_gray.png")), "color_gray", exifOrientation.value_or(1), metadata.filename);
+            imageEntries.emplace_back(pathutils::getAbsolutePath(pathutils::join(baseDir, baseName + "_rgb.png")), "color_rgb", exifOrientation.value_or(1), metadata.filename);
+            imageEntries.emplace_back(pathutils::getAbsolutePath(pathutils::join(baseDir, baseName + "_hsv.png")), "color_hsv", exifOrientation.value_or(1), metadata.filename);
+            imageEntries.emplace_back(pathutils::getAbsolutePath(pathutils::join(baseDir, baseName + "_lab.png")), "color_lab", exifOrientation.value_or(1), metadata.filename);
+            imageEntries.emplace_back(pathutils::getAbsolutePath(pathutils::join(baseDir, baseName + "_ycrcb.png")), "color_ycrcb", exifOrientation.value_or(1), metadata.filename);
+            imageEntries.emplace_back(pathutils::getAbsolutePath(pathutils::join(baseDir, baseName + "_luv.png")), "color_luv", exifOrientation.value_or(1), metadata.filename);
         }
 
         // 5. ORIENTATION
@@ -126,6 +197,12 @@ ImageMetadata runPreprocessingPipeline(const std::string &imagePath, std::option
         else if (convertedExifOrientation == 3 || convertedExifOrientation == 6 || convertedExifOrientation == 8 || state.is_orientation_corrected) {
             state.is_orientation_corrected = true;
             logger.log("Image orientation corrected successfully.", LogLevel::INFO);
+            // Add oriented image
+            std::string orientedDir = "images/temp/oriented";
+            std::string baseName = pathutils::getFilenameWithoutExtension(metadata.filename);
+            std::string filename = baseName + "_oriented_exif_" + std::to_string(convertedExifOrientation) + ".png";
+            std::string orientedPath = pathutils::join(orientedDir, filename);
+            imageEntries.emplace_back(pathutils::getAbsolutePath(orientedPath), "oriented", convertedExifOrientation, metadata.filename);
         }
         else
         {
@@ -158,6 +235,13 @@ ImageMetadata runPreprocessingPipeline(const std::string &imagePath, std::option
         else
         {
             logger.log("Thumbnail generated successfully.", LogLevel::INFO);
+            // Add thumbnail
+            std::string thumbDir = "./images/temp/thumbs";
+            std::string baseName = pathutils::getFilenameWithoutExtension(metadata.filename);
+            int newWidth = 128;
+            int newHeight = static_cast<int>(image.rows * (static_cast<float>(newWidth) / image.cols));
+            std::string thumbPath = pathutils::join(thumbDir, baseName + "_thumbnail_" + std::to_string(newWidth) + "x" + std::to_string(newHeight) + ".png");
+            imageEntries.emplace_back(pathutils::getAbsolutePath(thumbPath), "thumbnail", exifOrientation.value_or(1), metadata.filename);
         }
 
     }
@@ -166,6 +250,8 @@ ImageMetadata runPreprocessingPipeline(const std::string &imagePath, std::option
         logger.log("Error in preprocessing pipeline: " + std::string(e.what()), LogLevel::ERROR);
         throw;
     }
+    metadata.preproc_state = state;
     saveMetadataAsJson(metadata, "local/json/" + metadata.filename + ".metadata.json");
+    updateImagesIndex(imageEntries);
     return metadata;
 }

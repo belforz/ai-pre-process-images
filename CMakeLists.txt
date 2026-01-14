@@ -18,7 +18,7 @@ file(GLOB MAIN_MODULES_SRC "src/preproc/*.cpp")
 file(GLOB UTILS_SRC "src/utils/*.cpp")
 file(GLOB CONNECTORS_SRC "src/connectors/*.cpp")
 
-add_executable(techinician_main_agent
+add_executable(ai-preproccessor
     ${MAIN_SRC}
     ${MAIN_MODULES_SRC}
     ${MODULES_SRC}
@@ -26,7 +26,7 @@ add_executable(techinician_main_agent
     ${CONNECTORS_SRC}
 )
 
-target_link_libraries(techinician_main_agent
+target_link_libraries(ai-preproccessor
     ${OpenCV_LIBS}
     nlohmann_json::nlohmann_json
     OpenSSL::Crypto

@@ -5,7 +5,7 @@
       "name": "Debug Main Agent",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/techinician_main_agent",
+      "program": "${workspaceFolder}/build/ai-preproccessor",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",

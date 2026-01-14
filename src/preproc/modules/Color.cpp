@@ -22,6 +22,8 @@ cv::Mat toRGB(const cv::Mat &image, convertedImage &converted) {
     cv::Mat rgbImage;
     if (image.channels() == 3)
         cv::cvtColor(image, rgbImage, cv::COLOR_BGR2RGB);
+    else if (image.channels() == 1)
+        cv::cvtColor(image, rgbImage, cv::COLOR_GRAY2RGB);
     else
         rgbImage = image.clone();
     logger.log("Converted image to RGB.", LogLevel::INFO);
@@ -33,7 +35,11 @@ cv::Mat toHSV(const cv::Mat &image, convertedImage &converted) {
     cv::Mat hsvImage;
     if (image.channels() == 3)
         cv::cvtColor(image, hsvImage, cv::COLOR_BGR2HSV);
-    else
+    else if (image.channels() == 1) {
+        cv::Mat bgr;
+        cv::cvtColor(image, bgr, cv::COLOR_GRAY2BGR);
+        cv::cvtColor(bgr, hsvImage, cv::COLOR_BGR2HSV);
+    } else
         hsvImage = image.clone();
     logger.log("Converted image to HSV.", LogLevel::INFO);
     converted.hsvImage = hsvImage;
@@ -44,7 +50,11 @@ cv::Mat toLab(const cv::Mat &image, convertedImage &converted) {
     cv::Mat labImage;
     if (image.channels() == 3)
         cv::cvtColor(image, labImage, cv::COLOR_BGR2Lab);
-    else
+    else if (image.channels() == 1) {
+        cv::Mat bgr;
+        cv::cvtColor(image, bgr, cv::COLOR_GRAY2BGR);
+        cv::cvtColor(bgr, labImage, cv::COLOR_BGR2Lab);
+    } else
         labImage = image.clone();
     logger.log("Converted image to Lab.", LogLevel::INFO);
     converted.labImage = labImage;
@@ -55,7 +65,11 @@ cv::Mat toYCrCb(const cv::Mat &image, convertedImage &converted) {
     cv::Mat ycrcbImage;
     if (image.channels() == 3)
         cv::cvtColor(image, ycrcbImage, cv::COLOR_BGR2YCrCb);
-    else
+    else if (image.channels() == 1) {
+        cv::Mat bgr;
+        cv::cvtColor(image, bgr, cv::COLOR_GRAY2BGR);
+        cv::cvtColor(bgr, ycrcbImage, cv::COLOR_BGR2YCrCb);
+    } else
         ycrcbImage = image.clone();
     logger.log("Converted image to YCrCb.", LogLevel::INFO);
     converted.ycrcbImage = ycrcbImage;
@@ -66,7 +80,11 @@ cv::Mat toLuv(const cv::Mat &image, convertedImage &converted) {
     cv::Mat luvImage;
     if (image.channels() == 3)
         cv::cvtColor(image, luvImage, cv::COLOR_BGR2Luv);
-    else
+    else if (image.channels() == 1) {
+        cv::Mat bgr;
+        cv::cvtColor(image, bgr, cv::COLOR_GRAY2BGR);
+        cv::cvtColor(bgr, luvImage, cv::COLOR_BGR2Luv);
+    } else
         luvImage = image.clone();
     logger.log("Converted image to Luv.", LogLevel::INFO);
     converted.luvImage = luvImage;
@@ -83,13 +101,20 @@ convertedImage generateColorSpaces(const cv::Mat &image, processorState &state) 
             throw std::runtime_error("Input image is empty.");
         }
 
+        logger.log("Input image channels: " + std::to_string(image.channels()), LogLevel::INFO);
         logger.log("Generating color spaces for the image...", LogLevel::INFO);
         toGray(image, converted);
+        logger.log("Gray image channels: " + std::to_string(converted.grayImage.channels()), LogLevel::INFO);
         toRGB(image, converted);
+        logger.log("RGB image channels: " + std::to_string(converted.rgbImage.channels()), LogLevel::INFO);
         toHSV(image, converted);
+        logger.log("HSV image channels: " + std::to_string(converted.hsvImage.channels()), LogLevel::INFO);
         toLab(image, converted);
+        logger.log("Lab image channels: " + std::to_string(converted.labImage.channels()), LogLevel::INFO);
         toYCrCb(image, converted);
+        logger.log("YCrCb image channels: " + std::to_string(converted.ycrcbImage.channels()), LogLevel::INFO);
         toLuv(image, converted);
+        logger.log("Luv image channels: " + std::to_string(converted.luvImage.channels()), LogLevel::INFO);
         state.color_spaces_generated = true;
 
         std::string baseDir = "./images/temp/color_spaces";

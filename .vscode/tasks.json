@@ -22,7 +22,7 @@
     {
       "label": "Execute",
       "type": "shell",
-      "command": "./build/techinician_main_agent",
+      "command": "./build/ai-preprocessor",
       "dependsOn": [
         "Build C++"
       ],
@@ -36,7 +36,7 @@
     {
       "label": "Build and Run",
       "type": "shell",
-      "command": "./build/techinician_main_agent",
+      "command": "./build/ai-preprocessor",
       "args":[
         "images/rgb_critically_low.png",
         "images/rgb_exif3_8bit.jpg","3",
