@@ -125,9 +125,15 @@ ImageMetadata runPreprocessingPipeline(const std::string &imagePath, std::option
             }
         }
 
+        if (state.is_image_resized) {
+            metadata.width = resize.cols;
+            metadata.height = resize.rows;
+            metadata.aspect_ratio = static_cast<double>(resize.cols) / resize.rows;
+        }
+
         // 3. NORMALIZE
         logger.log("Normalizing image", LogLevel::INFO);
-        cv::Mat normalize = normalizeImage(image, state);
+        cv::Mat normalize = normalizeImage(resize, state);
         if (normalize.empty())
         {
             state.is_image_valid = false;
@@ -145,7 +151,7 @@ ImageMetadata runPreprocessingPipeline(const std::string &imagePath, std::option
 
         // 4. COLOR SPACES
         logger.log("Generating color spaces", LogLevel::INFO);
-        convertedImage colorSpaces = generateColorSpaces(image, state);
+        convertedImage colorSpaces = generateColorSpaces(resize, state);
         colorSpaces.grayImage = colorSpaces.grayImage.empty() ? image : colorSpaces.grayImage;
         colorSpaces.rgbImage = colorSpaces.rgbImage.empty() ? image : colorSpaces.rgbImage;
         colorSpaces.hsvImage = colorSpaces.hsvImage.empty() ? image : colorSpaces.hsvImage;
@@ -187,12 +193,12 @@ ImageMetadata runPreprocessingPipeline(const std::string &imagePath, std::option
             std::string exifJsonPath = imagePath + ".exif.json";
             convertedExifOrientation = exifOrientationFromJson(exifJsonPath);
         }
-        cv::Mat orientedImage = correctImageOrientation(image, state, convertedExifOrientation);
+        cv::Mat orientedImage = correctImageOrientation(resize, state, convertedExifOrientation);
         if (orientedImage.empty())
         {
             state.is_orientation_corrected = false;
             logger.log("Image orientation correction failed, using original image.", LogLevel::WARNING);
-            orientedImage = image;
+            orientedImage = resize;
         }
         else if (convertedExifOrientation == 3 || convertedExifOrientation == 6 || convertedExifOrientation == 8 || state.is_orientation_corrected) {
             state.is_orientation_corrected = true;
@@ -212,7 +218,7 @@ ImageMetadata runPreprocessingPipeline(const std::string &imagePath, std::option
 
         // 6. COMPRESSION
         logger.log("Checking image compression", LogLevel::INFO);
-        IsCompressed(image, state, metadata.original_format);
+        IsCompressed(resize, state, metadata.original_format);
         if(state.has_compressed_image)
         {
             logger.log("Image is compressed: " + state.compression_type, LogLevel::INFO);
@@ -226,11 +232,11 @@ ImageMetadata runPreprocessingPipeline(const std::string &imagePath, std::option
 
         // 8. THUMBNAIL
         logger.log("Generating thumbnail", LogLevel::INFO);
-        cv::Mat thumbnail = generateCopy(image, state);
+        cv::Mat thumbnail = generateCopy(resize, state);
         if (thumbnail.empty())
         {
             logger.log("Thumbnail generation failed, using original image.", LogLevel::WARNING);
-            thumbnail = image;
+            thumbnail = resize;
         }
         else
         {
@@ -239,7 +245,7 @@ ImageMetadata runPreprocessingPipeline(const std::string &imagePath, std::option
             std::string thumbDir = "./images/temp/thumbs";
             std::string baseName = pathutils::getFilenameWithoutExtension(metadata.filename);
             int newWidth = 128;
-            int newHeight = static_cast<int>(image.rows * (static_cast<float>(newWidth) / image.cols));
+            int newHeight = static_cast<int>(resize.rows * (static_cast<float>(newWidth) / resize.cols));
             std::string thumbPath = pathutils::join(thumbDir, baseName + "_thumbnail_" + std::to_string(newWidth) + "x" + std::to_string(newHeight) + ".png");
             imageEntries.emplace_back(pathutils::getAbsolutePath(thumbPath), "thumbnail", exifOrientation.value_or(1), metadata.filename);
         }

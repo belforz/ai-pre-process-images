@@ -29,10 +29,10 @@ cv::Mat resizeImage(const cv::Mat &image, processorState &state, std::optional<s
             state.is_resolution_critic = true;
             outputPath.reset();
             return image;
-        }
+        } 
 
-        if (maxSide < 1024) {
-            float scale = 1024.0f / static_cast<float>(maxSide);
+        if (maxSide != 640) {
+            float scale = 640.0f / static_cast<float>(maxSide);
             int newWidth = static_cast<int>(width * scale);
             int newHeight = static_cast<int>(height * scale);
             cv::Mat resized;
@@ -44,7 +44,7 @@ cv::Mat resizeImage(const cv::Mat &image, processorState &state, std::optional<s
             std::string resizedDir = "./images/temp/resized";
             pathutils::ensureDirectory(resizedDir);
             std::string baseName = pathutils::getFilenameWithoutExtension(state.original_filename.empty() ? "image" : state.original_filename);
-            std::string filename = baseName + "_resized" + + ".png";
+            std::string filename = baseName + "_resized" + ".png";
             outputPath = pathutils::join(resizedDir, filename);
             cv::imwrite(*outputPath, resized);
 
