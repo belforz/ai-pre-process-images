@@ -1,0 +1,526 @@
+{
+    "images": [
+        {
+            "exif_orientation": 1,
+            "filename": "fa.jpg",
+            "path": "/home/leo/ai-pre-process-images/images/fa.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "fa.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/fa_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "fa.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/fa_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "fa.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/fa_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "fa.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/fa_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "fa.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/fa_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "fa.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/fa_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "fa.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/fa_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "fa.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/fa_thumbnail_128x96.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "guanabara-front.jpg",
+            "path": "/home/leo/ai-pre-process-images/images/guanabara-front.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "guanabara-front.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/guanabara-front_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "guanabara-front.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/guanabara-front_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "guanabara-front.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/guanabara-front_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "guanabara-front.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/guanabara-front_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "guanabara-front.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/guanabara-front_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "guanabara-front.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/guanabara-front_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "guanabara-front.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/guanabara-front_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "guanabara-front.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/guanabara-front_thumbnail_128x96.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_2150.jpg",
+            "path": "/home/leo/ai-pre-process-images/images/IMG_2150.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_2150.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/IMG_2150_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_2150.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_2150_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_2150.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_2150_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_2150.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_2150_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_2150.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_2150_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_2150.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_2150_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_2150.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_2150_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_2150.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/IMG_2150_thumbnail_128x96.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_5446.jpg",
+            "path": "/home/leo/ai-pre-process-images/images/IMG_5446.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_5446.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/IMG_5446_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_5446.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_5446_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_5446.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_5446_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_5446.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_5446_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_5446.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_5446_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_5446.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_5446_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_5446.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_5446_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_5446.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/IMG_5446_thumbnail_128x96.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_6812.jpg",
+            "path": "/home/leo/ai-pre-process-images/images/IMG_6812.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_6812.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/IMG_6812_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_6812.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_6812_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_6812.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_6812_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_6812.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_6812_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_6812.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_6812_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_6812.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_6812_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_6812.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_6812_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_6812.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/IMG_6812_thumbnail_128x96.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_7294.jpg",
+            "path": "/home/leo/ai-pre-process-images/images/IMG_7294.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_7294.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/IMG_7294_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_7294.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_7294_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_7294.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_7294_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_7294.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_7294_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_7294.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_7294_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_7294.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_7294_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_7294.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_7294_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "IMG_7294.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/IMG_7294_thumbnail_128x96.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "JDLPPJgF_400x400.jpg",
+            "path": "/home/leo/ai-pre-process-images/images/JDLPPJgF_400x400.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "JDLPPJgF_400x400.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/JDLPPJgF_400x400_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "JDLPPJgF_400x400.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/JDLPPJgF_400x400_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "JDLPPJgF_400x400.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/JDLPPJgF_400x400_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "JDLPPJgF_400x400.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/JDLPPJgF_400x400_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "JDLPPJgF_400x400.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/JDLPPJgF_400x400_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "JDLPPJgF_400x400.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/JDLPPJgF_400x400_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "JDLPPJgF_400x400.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/JDLPPJgF_400x400_thumbnail_128x128.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "bad_exposure_IMG_2147.jpg",
+            "path": "/home/leo/ai-pre-process-images/images/bad_exposure_IMG_2147.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "bad_exposure_IMG_2147.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/bad_exposure_IMG_2147_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "bad_exposure_IMG_2147.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/bad_exposure_IMG_2147_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "bad_exposure_IMG_2147.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/bad_exposure_IMG_2147_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "bad_exposure_IMG_2147.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/bad_exposure_IMG_2147_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "bad_exposure_IMG_2147.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/bad_exposure_IMG_2147_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "bad_exposure_IMG_2147.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/bad_exposure_IMG_2147_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "bad_exposure_IMG_2147.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/bad_exposure_IMG_2147_thumbnail_128x170.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "bad_exposure_IMG_6106.jpg",
+            "path": "/home/leo/ai-pre-process-images/images/bad_exposure_IMG_6106.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "bad_exposure_IMG_6106.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/bad_exposure_IMG_6106_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "bad_exposure_IMG_6106.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/bad_exposure_IMG_6106_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "bad_exposure_IMG_6106.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/bad_exposure_IMG_6106_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "bad_exposure_IMG_6106.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/bad_exposure_IMG_6106_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "bad_exposure_IMG_6106.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/bad_exposure_IMG_6106_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "bad_exposure_IMG_6106.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/bad_exposure_IMG_6106_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "bad_exposure_IMG_6106.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/bad_exposure_IMG_6106_thumbnail_128x170.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "verde.png",
+            "path": "/home/leo/ai-pre-process-images/images/verde.png",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "verde.png",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/verde_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "verde.png",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/verde_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "verde.png",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/verde_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "verde.png",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/verde_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "verde.png",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/verde_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "verde.png",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/verde_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "verde.png",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/verde_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "verde.png",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/verde_thumbnail_128x96.png",
+            "type": "thumbnail"
+        }
+    ]
+}

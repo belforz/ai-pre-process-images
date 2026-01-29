@@ -18,7 +18,7 @@ cv::Mat normalizeImage(const cv::Mat &image, processorState &state)
 
         bool converted = false;
 
-        if (image.type() == CV_8UC1 || image.type() == CV_8UC3)
+        if (image.depth() == CV_8U && (image.channels() == 1 || image.channels() == 3 || image.channels() == 4))
         {
             imgNormalized = image.clone();
             logger.log("Image is already in 8-bit format.", LogLevel::INFO);
@@ -62,6 +62,9 @@ cv::Mat normalizeImage(const cv::Mat &image, processorState &state)
         if (imgNormalized.channels() == 3)
         {
             cv::cvtColor(imgNormalized, gray, cv::COLOR_BGR2GRAY);
+        } else if (imgNormalized.channels() == 4)
+        {
+            cv::cvtColor(imgNormalized, gray, cv::COLOR_BGRA2GRAY);
         }
         else
         {

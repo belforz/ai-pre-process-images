@@ -11,6 +11,8 @@ cv::Mat toGray(const cv::Mat &image, convertedImage &converted) {
     cv::Mat grayImage;
     if (image.channels() == 3)
         cv::cvtColor(image, grayImage, cv::COLOR_BGR2GRAY);
+    else if (image.channels() == 4)
+        cv::cvtColor(image, grayImage, cv::COLOR_BGRA2GRAY);
     else
         grayImage = image.clone();
     logger.log("Converted image to Grayscale.", LogLevel::INFO);
@@ -24,6 +26,8 @@ cv::Mat toRGB(const cv::Mat &image, convertedImage &converted) {
         cv::cvtColor(image, rgbImage, cv::COLOR_BGR2RGB);
     else if (image.channels() == 1)
         cv::cvtColor(image, rgbImage, cv::COLOR_GRAY2RGB);
+    else if(image.channels() == 4)
+        cv::cvtColor(image, rgbImage, cv::COLOR_BGRA2RGB);
     else
         rgbImage = image.clone();
     logger.log("Converted image to RGB.", LogLevel::INFO);
@@ -39,7 +43,9 @@ cv::Mat toHSV(const cv::Mat &image, convertedImage &converted) {
         cv::Mat bgr;
         cv::cvtColor(image, bgr, cv::COLOR_GRAY2BGR);
         cv::cvtColor(bgr, hsvImage, cv::COLOR_BGR2HSV);
-    } else
+    } else if(image.channels() == 4)
+        cv::cvtColor(image, hsvImage, cv::COLOR_BGR2HSV);
+    else
         hsvImage = image.clone();
     logger.log("Converted image to HSV.", LogLevel::INFO);
     converted.hsvImage = hsvImage;
@@ -54,7 +60,9 @@ cv::Mat toLab(const cv::Mat &image, convertedImage &converted) {
         cv::Mat bgr;
         cv::cvtColor(image, bgr, cv::COLOR_GRAY2BGR);
         cv::cvtColor(bgr, labImage, cv::COLOR_BGR2Lab);
-    } else
+    } else if(image.channels() == 4)
+        cv::cvtColor(image, labImage, cv::COLOR_BGR2Lab);
+    else
         labImage = image.clone();
     logger.log("Converted image to Lab.", LogLevel::INFO);
     converted.labImage = labImage;
@@ -69,7 +77,9 @@ cv::Mat toYCrCb(const cv::Mat &image, convertedImage &converted) {
         cv::Mat bgr;
         cv::cvtColor(image, bgr, cv::COLOR_GRAY2BGR);
         cv::cvtColor(bgr, ycrcbImage, cv::COLOR_BGR2YCrCb);
-    } else
+    } else if(image.channels() == 4)
+        cv::cvtColor(image, ycrcbImage, cv::COLOR_BGR2YCrCb);
+    else
         ycrcbImage = image.clone();
     logger.log("Converted image to YCrCb.", LogLevel::INFO);
     converted.ycrcbImage = ycrcbImage;
@@ -84,7 +94,9 @@ cv::Mat toLuv(const cv::Mat &image, convertedImage &converted) {
         cv::Mat bgr;
         cv::cvtColor(image, bgr, cv::COLOR_GRAY2BGR);
         cv::cvtColor(bgr, luvImage, cv::COLOR_BGR2Luv);
-    } else
+    } else if(image.channels() == 4)    
+        cv::cvtColor(image, luvImage, cv::COLOR_BGR2Luv);
+    else
         luvImage = image.clone();
     logger.log("Converted image to Luv.", LogLevel::INFO);
     converted.luvImage = luvImage;
