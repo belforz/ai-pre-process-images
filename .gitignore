@@ -47,3 +47,11 @@
 
 #env
 *.env
+
+# images files
+/images/**
+!.images/.gitkeep
+
+# jsons
+/local/**
+
