@@ -1,2445 +1,650 @@
-{
-    "images": [
+ {     "images": [
         {
             "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample0.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_BAD_BLUR]_sample0.jpg",
+            "filename": "expect[BAD]10.jpg",
+            "path": "/home/leo/ai-pre-process-images/images/test_face/expect[BAD]10.jpg",
             "type": "original"
         },
         {
             "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample0.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample0_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample0.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample0_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample0.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample0_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample0.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample0_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample0.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample0_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample0.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample0_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample0.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_BAD_BLUR]_sample0_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample1.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_BAD_BLUR]_sample1.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample1_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample1_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample1_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample1_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample1_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample1_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_BAD_BLUR]_sample1_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample2.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_BAD_BLUR]_sample2.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample2_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample2_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample2_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample2_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample2_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample2_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_BAD_BLUR]_sample2_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample3.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_BAD_BLUR]_sample3.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample3_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample3_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample3_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample3_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample3_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample3_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_BAD_BLUR]_sample3_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample4.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_BAD_BLUR]_sample4.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample4_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample4_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample4_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample4_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample4_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample4_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_BAD_BLUR]_sample4_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample5.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_BAD_BLUR]_sample5.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample5_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample5_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample5_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample5_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample5_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample5_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_BAD_BLUR]_sample5_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample6.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_BAD_BLUR]_sample6.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample6_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample6_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample6_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample6_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample6_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample6_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_BAD_BLUR]_sample6_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample7.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_BAD_BLUR]_sample7.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample7_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample7_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample7_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample7_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample7_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample7_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_BAD_BLUR]_sample7_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample8.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_BAD_BLUR]_sample8.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample8_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample8_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample8_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample8_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample8_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample8_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_BAD_BLUR]_sample8_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample9.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_BAD_BLUR]_sample9.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample9_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample9_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample9_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample9_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample9_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_BLUR]_sample9_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_BLUR]_sample9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_BAD_BLUR]_sample9_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample0.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_BAD_EXPOSURE]_sample0.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample0.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample0_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample0.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample0_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample0.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample0_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample0.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample0_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample0.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample0_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample0.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample0_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample0.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_BAD_EXPOSURE]_sample0_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample1.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_BAD_EXPOSURE]_sample1.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample1_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample1_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample1_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample1_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample1_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample1_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_BAD_EXPOSURE]_sample1_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample2.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_BAD_EXPOSURE]_sample2.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample2_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample2_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample2_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample2_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample2_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample2_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_BAD_EXPOSURE]_sample2_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample3.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_BAD_EXPOSURE]_sample3.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample3_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample3_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample3_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample3_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample3_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample3_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_BAD_EXPOSURE]_sample3_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample4.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_BAD_EXPOSURE]_sample4.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample4_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample4_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample4_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample4_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample4_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample4_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_BAD_EXPOSURE]_sample4_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample5.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_BAD_EXPOSURE]_sample5.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample5_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample5_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample5_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample5_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample5_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample5_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_BAD_EXPOSURE]_sample5_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample6.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_BAD_EXPOSURE]_sample6.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample6_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample6_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample6_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample6_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample6_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample6_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_BAD_EXPOSURE]_sample6_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample7.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_BAD_EXPOSURE]_sample7.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample7_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample7_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample7_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample7_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample7_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample7_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_BAD_EXPOSURE]_sample7_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample8.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_BAD_EXPOSURE]_sample8.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample8_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample8_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample8_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample8_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample8_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample8_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_BAD_EXPOSURE]_sample8_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample9.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_BAD_EXPOSURE]_sample9.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample9_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample9_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample9_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample9_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample9_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_BAD_EXPOSURE]_sample9_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_BAD_EXPOSURE]_sample9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_BAD_EXPOSURE]_sample9_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample0.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_GOOD]_sample0.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample0.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample0_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample0.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample0_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample0.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample0_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample0.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample0_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample0.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample0_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample0.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample0_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample0.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_GOOD]_sample0_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample1.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_GOOD]_sample1.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample1_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample1_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample1_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample1_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample1_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample1_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_GOOD]_sample1_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample2.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_GOOD]_sample2.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample2_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample2_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample2_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample2_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample2_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample2_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_GOOD]_sample2_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample3.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_GOOD]_sample3.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample3_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample3_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample3_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample3_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample3_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample3_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_GOOD]_sample3_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample4.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_GOOD]_sample4.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample4_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample4_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample4_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample4_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample4_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample4_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_GOOD]_sample4_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample5.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_GOOD]_sample5.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample5_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample5_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample5_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample5_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample5_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample5_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_GOOD]_sample5_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample6.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_GOOD]_sample6.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample6_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample6_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample6_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample6_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample6_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample6_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_GOOD]_sample6_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample7.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_GOOD]_sample7.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample7_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample7_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample7_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample7_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample7_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample7_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_GOOD]_sample7_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample8.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_GOOD]_sample8.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample8_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample8_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample8_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample8_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample8_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample8_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_GOOD]_sample8_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample9.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_GOOD]_sample9.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample9_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample9_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample9_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample9_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample9_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_GOOD]_sample9_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_GOOD]_sample9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_GOOD]_sample9_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample0.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_VINTAGE]_sample0.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample0.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample0_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample0.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample0_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample0.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample0_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample0.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample0_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample0.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample0_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample0.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample0_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample0.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_VINTAGE]_sample0_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample1.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_VINTAGE]_sample1.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample1_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample1_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample1_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample1_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample1_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample1_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_VINTAGE]_sample1_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample2.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_VINTAGE]_sample2.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample2_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample2_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample2_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample2_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample2_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample2_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_VINTAGE]_sample2_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample3.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_VINTAGE]_sample3.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample3_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample3_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample3_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample3_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample3_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample3_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_VINTAGE]_sample3_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample4.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_VINTAGE]_sample4.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample4_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample4_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample4_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample4_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample4_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample4_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_VINTAGE]_sample4_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample5.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_VINTAGE]_sample5.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample5_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample5_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample5_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample5_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample5_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample5_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_VINTAGE]_sample5_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample6.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_VINTAGE]_sample6.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample6_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample6_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample6_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample6_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample6_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample6_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_VINTAGE]_sample6_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample7.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_VINTAGE]_sample7.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample7_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample7_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample7_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample7_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample7_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample7_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_VINTAGE]_sample7_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample8.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_VINTAGE]_sample8.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample8_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample8_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample8_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample8_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample8_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample8_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_VINTAGE]_sample8_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample9.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/blind_test/[EXPECT_VINTAGE]_sample9.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample9_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample9_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample9_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample9_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample9_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/[EXPECT_VINTAGE]_sample9_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "[EXPECT_VINTAGE]_sample9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/[EXPECT_VINTAGE]_sample9_thumbnail_128x96.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "IMG_2150.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/test_real/IMG_2150.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "IMG_2150.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/IMG_2150_resized.png",
+            "filename": "expect[BAD]10.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/expect[BAD]10_resized.png",
             "type": "resized"
         },
         {
             "exif_orientation": 1,
-            "filename": "IMG_2150.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_2150_gray.png",
+            "filename": "expect[BAD]10.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]10_gray.png",
             "type": "color_gray"
         },
         {
             "exif_orientation": 1,
-            "filename": "IMG_2150.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_2150_rgb.png",
+            "filename": "expect[BAD]10.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]10_rgb.png",
             "type": "color_rgb"
         },
         {
             "exif_orientation": 1,
-            "filename": "IMG_2150.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_2150_hsv.png",
+            "filename": "expect[BAD]10.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]10_hsv.png",
             "type": "color_hsv"
         },
         {
             "exif_orientation": 1,
-            "filename": "IMG_2150.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_2150_lab.png",
+            "filename": "expect[BAD]10.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]10_lab.png",
             "type": "color_lab"
         },
         {
             "exif_orientation": 1,
-            "filename": "IMG_2150.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_2150_ycrcb.png",
+            "filename": "expect[BAD]10.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]10_ycrcb.png",
             "type": "color_ycrcb"
         },
         {
             "exif_orientation": 1,
-            "filename": "IMG_2150.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_2150_luv.png",
+            "filename": "expect[BAD]10.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]10_luv.png",
             "type": "color_luv"
         },
         {
             "exif_orientation": 1,
-            "filename": "IMG_2150.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/IMG_2150_thumbnail_128x96.png",
+            "filename": "expect[BAD]10.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/expect[BAD]10_thumbnail_128x192.png",
             "type": "thumbnail"
         },
         {
             "exif_orientation": 1,
-            "filename": "IMG_5446.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/test_real/IMG_5446.jpg",
+            "filename": "expect[BAD]11.jpg",
+            "path": "/home/leo/ai-pre-process-images/images/test_face/expect[BAD]11.jpg",
             "type": "original"
         },
         {
             "exif_orientation": 1,
-            "filename": "IMG_5446.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/IMG_5446_resized.png",
+            "filename": "expect[BAD]11.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/expect[BAD]11_resized.png",
             "type": "resized"
         },
         {
             "exif_orientation": 1,
-            "filename": "IMG_5446.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_5446_gray.png",
+            "filename": "expect[BAD]11.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]11_gray.png",
             "type": "color_gray"
         },
         {
             "exif_orientation": 1,
-            "filename": "IMG_5446.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_5446_rgb.png",
+            "filename": "expect[BAD]11.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]11_rgb.png",
             "type": "color_rgb"
         },
         {
             "exif_orientation": 1,
-            "filename": "IMG_5446.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_5446_hsv.png",
+            "filename": "expect[BAD]11.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]11_hsv.png",
             "type": "color_hsv"
         },
         {
             "exif_orientation": 1,
-            "filename": "IMG_5446.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_5446_lab.png",
+            "filename": "expect[BAD]11.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]11_lab.png",
             "type": "color_lab"
         },
         {
             "exif_orientation": 1,
-            "filename": "IMG_5446.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_5446_ycrcb.png",
+            "filename": "expect[BAD]11.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]11_ycrcb.png",
             "type": "color_ycrcb"
         },
         {
             "exif_orientation": 1,
-            "filename": "IMG_5446.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_5446_luv.png",
+            "filename": "expect[BAD]11.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]11_luv.png",
             "type": "color_luv"
         },
         {
             "exif_orientation": 1,
-            "filename": "IMG_5446.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/IMG_5446_thumbnail_128x96.png",
+            "filename": "expect[BAD]11.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/expect[BAD]11_thumbnail_128x85.png",
             "type": "thumbnail"
         },
         {
             "exif_orientation": 1,
-            "filename": "IMG_6812.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/test_real/IMG_6812.jpg",
+            "filename": "expect[BAD]12.jpg",
+            "path": "/home/leo/ai-pre-process-images/images/test_face/expect[BAD]12.jpg",
             "type": "original"
         },
         {
             "exif_orientation": 1,
-            "filename": "IMG_6812.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/IMG_6812_resized.png",
+            "filename": "expect[BAD]12.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/expect[BAD]12_resized.png",
             "type": "resized"
         },
         {
             "exif_orientation": 1,
-            "filename": "IMG_6812.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_6812_gray.png",
+            "filename": "expect[BAD]12.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]12_gray.png",
             "type": "color_gray"
         },
         {
             "exif_orientation": 1,
-            "filename": "IMG_6812.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_6812_rgb.png",
+            "filename": "expect[BAD]12.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]12_rgb.png",
             "type": "color_rgb"
         },
         {
             "exif_orientation": 1,
-            "filename": "IMG_6812.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_6812_hsv.png",
+            "filename": "expect[BAD]12.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]12_hsv.png",
             "type": "color_hsv"
         },
         {
             "exif_orientation": 1,
-            "filename": "IMG_6812.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_6812_lab.png",
+            "filename": "expect[BAD]12.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]12_lab.png",
             "type": "color_lab"
         },
         {
             "exif_orientation": 1,
-            "filename": "IMG_6812.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_6812_ycrcb.png",
+            "filename": "expect[BAD]12.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]12_ycrcb.png",
             "type": "color_ycrcb"
         },
         {
             "exif_orientation": 1,
-            "filename": "IMG_6812.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_6812_luv.png",
+            "filename": "expect[BAD]12.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]12_luv.png",
             "type": "color_luv"
         },
         {
             "exif_orientation": 1,
-            "filename": "IMG_6812.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/IMG_6812_thumbnail_128x96.png",
+            "filename": "expect[BAD]12.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/expect[BAD]12_thumbnail_128x192.png",
             "type": "thumbnail"
         },
         {
             "exif_orientation": 1,
-            "filename": "IMG_7294.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/test_real/IMG_7294.jpg",
+            "filename": "expect[BAD]7.jpg",
+            "path": "/home/leo/ai-pre-process-images/images/test_face/expect[BAD]7.jpg",
             "type": "original"
         },
         {
             "exif_orientation": 1,
-            "filename": "IMG_7294.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/IMG_7294_resized.png",
+            "filename": "expect[BAD]7.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/expect[BAD]7_resized.png",
             "type": "resized"
         },
         {
             "exif_orientation": 1,
-            "filename": "IMG_7294.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_7294_gray.png",
+            "filename": "expect[BAD]7.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]7_gray.png",
             "type": "color_gray"
         },
         {
             "exif_orientation": 1,
-            "filename": "IMG_7294.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_7294_rgb.png",
+            "filename": "expect[BAD]7.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]7_rgb.png",
             "type": "color_rgb"
         },
         {
             "exif_orientation": 1,
-            "filename": "IMG_7294.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_7294_hsv.png",
+            "filename": "expect[BAD]7.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]7_hsv.png",
             "type": "color_hsv"
         },
         {
             "exif_orientation": 1,
-            "filename": "IMG_7294.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_7294_lab.png",
+            "filename": "expect[BAD]7.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]7_lab.png",
             "type": "color_lab"
         },
         {
             "exif_orientation": 1,
-            "filename": "IMG_7294.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_7294_ycrcb.png",
+            "filename": "expect[BAD]7.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]7_ycrcb.png",
             "type": "color_ycrcb"
         },
         {
             "exif_orientation": 1,
-            "filename": "IMG_7294.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/IMG_7294_luv.png",
+            "filename": "expect[BAD]7.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]7_luv.png",
             "type": "color_luv"
         },
         {
             "exif_orientation": 1,
-            "filename": "IMG_7294.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/IMG_7294_thumbnail_128x96.png",
+            "filename": "expect[BAD]7.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/expect[BAD]7_thumbnail_128x171.png",
             "type": "thumbnail"
         },
         {
             "exif_orientation": 1,
-            "filename": "JDLPPJgF_400x400.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/test_real/JDLPPJgF_400x400.jpg",
+            "filename": "expect[BAD]8.jpg",
+            "path": "/home/leo/ai-pre-process-images/images/test_face/expect[BAD]8.jpg",
             "type": "original"
         },
         {
             "exif_orientation": 1,
-            "filename": "JDLPPJgF_400x400.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/JDLPPJgF_400x400_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "JDLPPJgF_400x400.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/JDLPPJgF_400x400_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "JDLPPJgF_400x400.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/JDLPPJgF_400x400_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "JDLPPJgF_400x400.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/JDLPPJgF_400x400_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "JDLPPJgF_400x400.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/JDLPPJgF_400x400_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "JDLPPJgF_400x400.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/JDLPPJgF_400x400_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "JDLPPJgF_400x400.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/JDLPPJgF_400x400_thumbnail_128x128.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "bad_exposure_IMG_2147.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/test_real/bad_exposure_IMG_2147.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "bad_exposure_IMG_2147.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/bad_exposure_IMG_2147_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "bad_exposure_IMG_2147.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/bad_exposure_IMG_2147_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "bad_exposure_IMG_2147.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/bad_exposure_IMG_2147_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "bad_exposure_IMG_2147.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/bad_exposure_IMG_2147_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "bad_exposure_IMG_2147.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/bad_exposure_IMG_2147_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "bad_exposure_IMG_2147.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/bad_exposure_IMG_2147_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "bad_exposure_IMG_2147.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/bad_exposure_IMG_2147_thumbnail_128x170.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "bad_exposure_IMG_6106.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/test_real/bad_exposure_IMG_6106.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "bad_exposure_IMG_6106.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/bad_exposure_IMG_6106_gray.png",
-            "type": "color_gray"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "bad_exposure_IMG_6106.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/bad_exposure_IMG_6106_rgb.png",
-            "type": "color_rgb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "bad_exposure_IMG_6106.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/bad_exposure_IMG_6106_hsv.png",
-            "type": "color_hsv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "bad_exposure_IMG_6106.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/bad_exposure_IMG_6106_lab.png",
-            "type": "color_lab"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "bad_exposure_IMG_6106.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/bad_exposure_IMG_6106_ycrcb.png",
-            "type": "color_ycrcb"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "bad_exposure_IMG_6106.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/bad_exposure_IMG_6106_luv.png",
-            "type": "color_luv"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "bad_exposure_IMG_6106.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/bad_exposure_IMG_6106_thumbnail_128x170.png",
-            "type": "thumbnail"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "fa.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/test_real/fa.jpg",
-            "type": "original"
-        },
-        {
-            "exif_orientation": 1,
-            "filename": "fa.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/fa_resized.png",
+            "filename": "expect[BAD]8.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/expect[BAD]8_resized.png",
             "type": "resized"
         },
         {
             "exif_orientation": 1,
-            "filename": "fa.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/fa_gray.png",
+            "filename": "expect[BAD]8.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]8_gray.png",
             "type": "color_gray"
         },
         {
             "exif_orientation": 1,
-            "filename": "fa.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/fa_rgb.png",
+            "filename": "expect[BAD]8.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]8_rgb.png",
             "type": "color_rgb"
         },
         {
             "exif_orientation": 1,
-            "filename": "fa.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/fa_hsv.png",
+            "filename": "expect[BAD]8.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]8_hsv.png",
             "type": "color_hsv"
         },
         {
             "exif_orientation": 1,
-            "filename": "fa.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/fa_lab.png",
+            "filename": "expect[BAD]8.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]8_lab.png",
             "type": "color_lab"
         },
         {
             "exif_orientation": 1,
-            "filename": "fa.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/fa_ycrcb.png",
+            "filename": "expect[BAD]8.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]8_ycrcb.png",
             "type": "color_ycrcb"
         },
         {
             "exif_orientation": 1,
-            "filename": "fa.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/fa_luv.png",
+            "filename": "expect[BAD]8.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]8_luv.png",
             "type": "color_luv"
         },
         {
             "exif_orientation": 1,
-            "filename": "fa.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/fa_thumbnail_128x96.png",
+            "filename": "expect[BAD]8.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/expect[BAD]8_thumbnail_128x85.png",
             "type": "thumbnail"
         },
         {
             "exif_orientation": 1,
-            "filename": "guanabara-front.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/test_real/guanabara-front.jpg",
+            "filename": "expect[BAD]9.jpg",
+            "path": "/home/leo/ai-pre-process-images/images/test_face/expect[BAD]9.jpg",
             "type": "original"
         },
         {
             "exif_orientation": 1,
-            "filename": "guanabara-front.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/guanabara-front_resized.png",
+            "filename": "expect[BAD]9.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/expect[BAD]9_resized.png",
             "type": "resized"
         },
         {
             "exif_orientation": 1,
-            "filename": "guanabara-front.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/guanabara-front_gray.png",
+            "filename": "expect[BAD]9.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]9_gray.png",
             "type": "color_gray"
         },
         {
             "exif_orientation": 1,
-            "filename": "guanabara-front.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/guanabara-front_rgb.png",
+            "filename": "expect[BAD]9.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]9_rgb.png",
             "type": "color_rgb"
         },
         {
             "exif_orientation": 1,
-            "filename": "guanabara-front.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/guanabara-front_hsv.png",
+            "filename": "expect[BAD]9.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]9_hsv.png",
             "type": "color_hsv"
         },
         {
             "exif_orientation": 1,
-            "filename": "guanabara-front.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/guanabara-front_lab.png",
+            "filename": "expect[BAD]9.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]9_lab.png",
             "type": "color_lab"
         },
         {
             "exif_orientation": 1,
-            "filename": "guanabara-front.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/guanabara-front_ycrcb.png",
+            "filename": "expect[BAD]9.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]9_ycrcb.png",
             "type": "color_ycrcb"
         },
         {
             "exif_orientation": 1,
-            "filename": "guanabara-front.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/guanabara-front_luv.png",
+            "filename": "expect[BAD]9.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]9_luv.png",
             "type": "color_luv"
         },
         {
             "exif_orientation": 1,
-            "filename": "guanabara-front.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/guanabara-front_thumbnail_128x96.png",
+            "filename": "expect[BAD]9.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/expect[BAD]9_thumbnail_128x192.png",
             "type": "thumbnail"
         },
         {
             "exif_orientation": 1,
-            "filename": "verde.png",
-            "path": "/home/leo/ai-pre-process-images/images/test_real/verde.png",
+            "filename": "expect[GOOD]1.jpg",
+            "path": "/home/leo/ai-pre-process-images/images/test_face/expect[GOOD]1.jpg",
             "type": "original"
         },
         {
             "exif_orientation": 1,
-            "filename": "verde.png",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/verde_resized.png",
+            "filename": "expect[GOOD]1.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/expect[GOOD]1_resized.png",
             "type": "resized"
         },
         {
             "exif_orientation": 1,
-            "filename": "verde.png",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/verde_gray.png",
+            "filename": "expect[GOOD]1.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]1_gray.png",
             "type": "color_gray"
         },
         {
             "exif_orientation": 1,
-            "filename": "verde.png",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/verde_rgb.png",
+            "filename": "expect[GOOD]1.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]1_rgb.png",
             "type": "color_rgb"
         },
         {
             "exif_orientation": 1,
-            "filename": "verde.png",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/verde_hsv.png",
+            "filename": "expect[GOOD]1.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]1_hsv.png",
             "type": "color_hsv"
         },
         {
             "exif_orientation": 1,
-            "filename": "verde.png",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/verde_lab.png",
+            "filename": "expect[GOOD]1.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]1_lab.png",
             "type": "color_lab"
         },
         {
             "exif_orientation": 1,
-            "filename": "verde.png",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/verde_ycrcb.png",
+            "filename": "expect[GOOD]1.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]1_ycrcb.png",
             "type": "color_ycrcb"
         },
         {
             "exif_orientation": 1,
-            "filename": "verde.png",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/verde_luv.png",
+            "filename": "expect[GOOD]1.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]1_luv.png",
             "type": "color_luv"
         },
         {
             "exif_orientation": 1,
-            "filename": "verde.png",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/verde_thumbnail_128x96.png",
+            "filename": "expect[GOOD]1.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/expect[GOOD]1_thumbnail_128x85.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]2.jpg",
+            "path": "/home/leo/ai-pre-process-images/images/test_face/expect[GOOD]2.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]2.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/expect[GOOD]2_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]2.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]2_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]2.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]2_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]2.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]2_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]2.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]2_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]2.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]2_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]2.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]2_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]2.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/expect[GOOD]2_thumbnail_128x192.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]3.jpg",
+            "path": "/home/leo/ai-pre-process-images/images/test_face/expect[GOOD]3.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]3.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/expect[GOOD]3_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]3.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]3_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]3.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]3_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]3.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]3_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]3.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]3_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]3.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]3_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]3.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]3_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]3.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/expect[GOOD]3_thumbnail_128x192.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]4.jpg",
+            "path": "/home/leo/ai-pre-process-images/images/test_face/expect[GOOD]4.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]4.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/expect[GOOD]4_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]4.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]4_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]4.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]4_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]4.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]4_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]4.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]4_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]4.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]4_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]4.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]4_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]4.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/expect[GOOD]4_thumbnail_128x160.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]5.jpg",
+            "path": "/home/leo/ai-pre-process-images/images/test_face/expect[GOOD]5.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]5.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/expect[GOOD]5_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]5.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]5_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]5.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]5_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]5.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]5_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]5.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]5_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]5.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]5_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]5.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]5_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]5.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/expect[GOOD]5_thumbnail_128x85.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]6.jpg",
+            "path": "/home/leo/ai-pre-process-images/images/test_face/expect[GOOD]6.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]6.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/expect[GOOD]6_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]6.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]6_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]6.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]6_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]6.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]6_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]6.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]6_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]6.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]6_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]6.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]6_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "expect[GOOD]6.jpg",
+            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/expect[GOOD]6_thumbnail_128x192.png",
             "type": "thumbnail"
         }
     ]
