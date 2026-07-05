@@ -19,17 +19,22 @@ const std::vector<std::string> reservedNames = {
 
 bool isValidPath(const std::string &path) {
     if (path.empty()) return false;
-    if (path.find('\0') != std::string::npos) return false;
-    if (path.find("..") != std::string::npos) return false;
-    if (fs::path(path).is_absolute()) return false;
+    if (path.find('\0') != std::string::npos) return false; // Impede caracteres nulos 
+    if (path.find("..") != std::string::npos) return false;  // Impede Path Traversal 
 
-    // Aceita arquivos na raiz ou na pasta images/
-    bool hasSlash = path.find("/") != std::string::npos;
-    if (hasSlash && path.rfind("images/", 0) != 0) {
+    // Definindo as duas bases permitidas 
+    std::string datasetBase = "/home/belforz/dataset/vitalidade/candidatas_vitalidade";
+    
+    bool isInImages = (path.rfind("images/", 0) == 0);
+    bool isInDataset = (path.rfind(datasetBase, 0) == 0);
+    bool isRootFile = (path.find("/") == std::string::npos); // Arquivo local na raiz [cite: 3]
+
+    // Se NÃO estiver em nenhum dos locais permitidos, rejeita 
+    if (!isInImages && !isInDataset && !isRootFile) {
         return false;
     }
 
-    // Checa caracteres inválidos
+    // Checa caracteres inválidos [cite: 5]
     for (char c : path) {
         if (invalidChars.find(c) != std::string::npos)
             return false;

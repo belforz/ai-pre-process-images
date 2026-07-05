@@ -7,6 +7,7 @@
 #include <nlohmann/json.hpp>
 #include <fstream>
 #include <optional>
+#include <regex>
 
 namespace fs = std::filesystem;
 
@@ -14,53 +15,83 @@ void updateImagesIndex(const std::vector<std::tuple<std::string, std::string, in
 {
     std::string indexPath = "local/images_index.json";
     nlohmann::json index;
-    
+
     // Read existing index if it exists
     std::ifstream inFile(indexPath);
-    if (inFile.is_open()) {
-        try {
+    if (inFile.is_open())
+    {
+        try
+        {
             inFile >> index;
-        } catch (const std::exception &) {
+        }
+        catch (const std::exception &)
+        {
             index = nlohmann::json::object();
         }
         inFile.close();
-    } else {
+    }
+    else
+    {
         index = nlohmann::json::object();
     }
-    
+
     // Ensure "images" array exists
-    if (!index.contains("images")) {
+    if (!index.contains("images"))
+    {
         index["images"] = nlohmann::json::array();
     }
-    
-    for (const auto &[path, type, exif, filename] : imageEntries) {
+
+    for (const auto &[path, type, exif, filename] : imageEntries)
+    {
         // Check if already exists
         bool exists = false;
-        for (const auto &img : index["images"]) {
-            if (img.contains("path") && img["path"] == path) {
+        for (const auto &img : index["images"])
+        {
+            if (img.contains("path") && img["path"] == path)
+            {
                 exists = true;
                 break;
             }
         }
-        if (!exists) {
+        if (!exists)
+        {
+            std::string folderIndexPath = "home/belforz/dataset/";
+            std::string currentFolderPath = folderIndexPath + path;
+
+            if (!index.contains("category"))
+            {
+                std::regex rgx("dataset/([^/]+)");
+                std::smatch matches;
+                std::string categoryName = "unknown";
+
+                if (std::regex_search(currentFolderPath, matches, rgx))
+                {
+                    categoryName = matches[1].str();
+                }
+
+                index["category"] = categoryName; 
+                logger.log("Setting dataset category to: " + categoryName, LogLevel::INFO);
+            }
             logger.log("Adding to images index: " + path + " type: " + type, LogLevel::INFO);
             nlohmann::json newEntry = {
                 {"path", path},
                 {"type", type},
                 {"exif_orientation", exif},
-                {"filename", filename}
-            };
+                {"filename", filename}};
             index["images"].push_back(newEntry);
         }
     }
-    
+
     // Write back
     std::ofstream outFile(indexPath);
-    if (outFile.is_open()) {
+    if (outFile.is_open())
+    {
         outFile << index.dump(4);
         outFile.close();
         logger.log("Updated images index: " + indexPath, LogLevel::INFO);
-    } else {
+    }
+    else
+    {
         logger.log("Failed to write images index: " + indexPath, LogLevel::ERROR);
     }
 }
@@ -95,7 +126,7 @@ ImageMetadata runPreprocessingPipeline(const std::string &imagePath, std::option
 
         logger.log("Image uploaded successfully: " + imagePath, LogLevel::INFO);
         metadata.filename = fs::path(imagePath).filename().string();
-        state.original_filename = metadata.filename; 
+        state.original_filename = metadata.filename;
         metadata.hash = computeSHA256(imagePath);
         metadata.width = image.cols;
         metadata.height = image.rows;
@@ -120,12 +151,14 @@ ImageMetadata runPreprocessingPipeline(const std::string &imagePath, std::option
         {
             state.is_image_resized = true;
             logger.log("Image resized successfully.", LogLevel::INFO);
-            if (outputPath) {
+            if (outputPath)
+            {
                 imageEntries.emplace_back(pathutils::getAbsolutePath(*outputPath), "resized", exifOrientation.value_or(1), metadata.filename);
             }
         }
 
-        if (state.is_image_resized) {
+        if (state.is_image_resized)
+        {
             metadata.width = resize.cols;
             metadata.height = resize.rows;
             metadata.aspect_ratio = static_cast<double>(resize.cols) / resize.rows;
@@ -140,7 +173,7 @@ ImageMetadata runPreprocessingPipeline(const std::string &imagePath, std::option
             logger.log("Image normalization failed, using original image.", LogLevel::WARNING);
             normalize = image;
         }
-        else if (state.is_normalized) 
+        else if (state.is_normalized)
         {
             logger.log("Image normalized successfully.", LogLevel::INFO);
         }
@@ -187,9 +220,12 @@ ImageMetadata runPreprocessingPipeline(const std::string &imagePath, std::option
         // 5. ORIENTATION
         logger.log("Correcting image orientation if necessary", LogLevel::INFO);
         int convertedExifOrientation = 1;
-        if (exifOrientation.has_value()) {
+        if (exifOrientation.has_value())
+        {
             convertedExifOrientation = exifOrientation.value();
-        } else {
+        }
+        else
+        {
             std::string exifJsonPath = imagePath + ".exif.json";
             convertedExifOrientation = exifOrientationFromJson(exifJsonPath);
         }
@@ -200,7 +236,8 @@ ImageMetadata runPreprocessingPipeline(const std::string &imagePath, std::option
             logger.log("Image orientation correction failed, using original image.", LogLevel::WARNING);
             orientedImage = resize;
         }
-        else if (convertedExifOrientation == 3 || convertedExifOrientation == 6 || convertedExifOrientation == 8 || state.is_orientation_corrected) {
+        else if (convertedExifOrientation == 3 || convertedExifOrientation == 6 || convertedExifOrientation == 8 || state.is_orientation_corrected)
+        {
             state.is_orientation_corrected = true;
             logger.log("Image orientation corrected successfully.", LogLevel::INFO);
             // Add oriented image
@@ -219,7 +256,7 @@ ImageMetadata runPreprocessingPipeline(const std::string &imagePath, std::option
         // 6. COMPRESSION
         logger.log("Checking image compression", LogLevel::INFO);
         IsCompressed(resize, state, metadata.original_format);
-        if(state.has_compressed_image)
+        if (state.has_compressed_image)
         {
             logger.log("Image is compressed: " + state.compression_type, LogLevel::INFO);
         }
@@ -249,7 +286,6 @@ ImageMetadata runPreprocessingPipeline(const std::string &imagePath, std::option
             std::string thumbPath = pathutils::join(thumbDir, baseName + "_thumbnail_" + std::to_string(newWidth) + "x" + std::to_string(newHeight) + ".png");
             imageEntries.emplace_back(pathutils::getAbsolutePath(thumbPath), "thumbnail", exifOrientation.value_or(1), metadata.filename);
         }
-
     }
     catch (const std::exception &e)
     {

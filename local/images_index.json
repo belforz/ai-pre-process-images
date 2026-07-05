@@ -1,650 +1,2218 @@
- {     "images": [
+{
+    "category": "vitalidade",
+    "images": [
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]10.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/test_face/expect[BAD]10.jpg",
+            "filename": "aleksandr-popov-3-Kh6XSu9XQ-unsplash.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/aleksandr-popov-3-Kh6XSu9XQ-unsplash.jpg",
             "type": "original"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]10.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/expect[BAD]10_resized.png",
+            "filename": "aleksandr-popov-3-Kh6XSu9XQ-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/aleksandr-popov-3-Kh6XSu9XQ-unsplash_resized.png",
             "type": "resized"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]10.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]10_gray.png",
+            "filename": "aleksandr-popov-3-Kh6XSu9XQ-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/aleksandr-popov-3-Kh6XSu9XQ-unsplash_gray.png",
             "type": "color_gray"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]10.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]10_rgb.png",
+            "filename": "aleksandr-popov-3-Kh6XSu9XQ-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/aleksandr-popov-3-Kh6XSu9XQ-unsplash_rgb.png",
             "type": "color_rgb"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]10.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]10_hsv.png",
+            "filename": "aleksandr-popov-3-Kh6XSu9XQ-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/aleksandr-popov-3-Kh6XSu9XQ-unsplash_hsv.png",
             "type": "color_hsv"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]10.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]10_lab.png",
+            "filename": "aleksandr-popov-3-Kh6XSu9XQ-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/aleksandr-popov-3-Kh6XSu9XQ-unsplash_lab.png",
             "type": "color_lab"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]10.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]10_ycrcb.png",
+            "filename": "aleksandr-popov-3-Kh6XSu9XQ-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/aleksandr-popov-3-Kh6XSu9XQ-unsplash_ycrcb.png",
             "type": "color_ycrcb"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]10.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]10_luv.png",
+            "filename": "aleksandr-popov-3-Kh6XSu9XQ-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/aleksandr-popov-3-Kh6XSu9XQ-unsplash_luv.png",
             "type": "color_luv"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]10.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/expect[BAD]10_thumbnail_128x192.png",
+            "filename": "aleksandr-popov-3-Kh6XSu9XQ-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/aleksandr-popov-3-Kh6XSu9XQ-unsplash_thumbnail_128x85.png",
             "type": "thumbnail"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]11.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/test_face/expect[BAD]11.jpg",
+            "filename": "artur-kornakov-fiCgwFIeVX0-unsplash.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/artur-kornakov-fiCgwFIeVX0-unsplash.jpg",
             "type": "original"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]11.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/expect[BAD]11_resized.png",
+            "filename": "artur-kornakov-fiCgwFIeVX0-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/artur-kornakov-fiCgwFIeVX0-unsplash_resized.png",
             "type": "resized"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]11.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]11_gray.png",
+            "filename": "artur-kornakov-fiCgwFIeVX0-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/artur-kornakov-fiCgwFIeVX0-unsplash_gray.png",
             "type": "color_gray"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]11.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]11_rgb.png",
+            "filename": "artur-kornakov-fiCgwFIeVX0-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/artur-kornakov-fiCgwFIeVX0-unsplash_rgb.png",
             "type": "color_rgb"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]11.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]11_hsv.png",
+            "filename": "artur-kornakov-fiCgwFIeVX0-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/artur-kornakov-fiCgwFIeVX0-unsplash_hsv.png",
             "type": "color_hsv"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]11.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]11_lab.png",
+            "filename": "artur-kornakov-fiCgwFIeVX0-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/artur-kornakov-fiCgwFIeVX0-unsplash_lab.png",
             "type": "color_lab"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]11.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]11_ycrcb.png",
+            "filename": "artur-kornakov-fiCgwFIeVX0-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/artur-kornakov-fiCgwFIeVX0-unsplash_ycrcb.png",
             "type": "color_ycrcb"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]11.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]11_luv.png",
+            "filename": "artur-kornakov-fiCgwFIeVX0-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/artur-kornakov-fiCgwFIeVX0-unsplash_luv.png",
             "type": "color_luv"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]11.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/expect[BAD]11_thumbnail_128x85.png",
+            "filename": "artur-kornakov-fiCgwFIeVX0-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/artur-kornakov-fiCgwFIeVX0-unsplash_thumbnail_128x192.png",
             "type": "thumbnail"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]12.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/test_face/expect[BAD]12.jpg",
+            "filename": "chris-z4P3I52t7-E-unsplash.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/chris-z4P3I52t7-E-unsplash.jpg",
             "type": "original"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]12.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/expect[BAD]12_resized.png",
+            "filename": "chris-z4P3I52t7-E-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/chris-z4P3I52t7-E-unsplash_resized.png",
             "type": "resized"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]12.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]12_gray.png",
+            "filename": "chris-z4P3I52t7-E-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/chris-z4P3I52t7-E-unsplash_gray.png",
             "type": "color_gray"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]12.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]12_rgb.png",
+            "filename": "chris-z4P3I52t7-E-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/chris-z4P3I52t7-E-unsplash_rgb.png",
             "type": "color_rgb"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]12.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]12_hsv.png",
+            "filename": "chris-z4P3I52t7-E-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/chris-z4P3I52t7-E-unsplash_hsv.png",
             "type": "color_hsv"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]12.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]12_lab.png",
+            "filename": "chris-z4P3I52t7-E-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/chris-z4P3I52t7-E-unsplash_lab.png",
             "type": "color_lab"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]12.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]12_ycrcb.png",
+            "filename": "chris-z4P3I52t7-E-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/chris-z4P3I52t7-E-unsplash_ycrcb.png",
             "type": "color_ycrcb"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]12.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]12_luv.png",
+            "filename": "chris-z4P3I52t7-E-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/chris-z4P3I52t7-E-unsplash_luv.png",
             "type": "color_luv"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]12.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/expect[BAD]12_thumbnail_128x192.png",
+            "filename": "chris-z4P3I52t7-E-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/chris-z4P3I52t7-E-unsplash_thumbnail_128x85.png",
             "type": "thumbnail"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]7.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/test_face/expect[BAD]7.jpg",
+            "filename": "felipe-santana-uRA-1WbLfYM-unsplash.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/felipe-santana-uRA-1WbLfYM-unsplash.jpg",
             "type": "original"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/expect[BAD]7_resized.png",
+            "filename": "felipe-santana-uRA-1WbLfYM-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/felipe-santana-uRA-1WbLfYM-unsplash_resized.png",
             "type": "resized"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]7_gray.png",
+            "filename": "felipe-santana-uRA-1WbLfYM-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/felipe-santana-uRA-1WbLfYM-unsplash_gray.png",
             "type": "color_gray"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]7_rgb.png",
+            "filename": "felipe-santana-uRA-1WbLfYM-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/felipe-santana-uRA-1WbLfYM-unsplash_rgb.png",
             "type": "color_rgb"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]7_hsv.png",
+            "filename": "felipe-santana-uRA-1WbLfYM-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/felipe-santana-uRA-1WbLfYM-unsplash_hsv.png",
             "type": "color_hsv"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]7_lab.png",
+            "filename": "felipe-santana-uRA-1WbLfYM-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/felipe-santana-uRA-1WbLfYM-unsplash_lab.png",
             "type": "color_lab"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]7_ycrcb.png",
+            "filename": "felipe-santana-uRA-1WbLfYM-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/felipe-santana-uRA-1WbLfYM-unsplash_ycrcb.png",
             "type": "color_ycrcb"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]7_luv.png",
+            "filename": "felipe-santana-uRA-1WbLfYM-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/felipe-santana-uRA-1WbLfYM-unsplash_luv.png",
             "type": "color_luv"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]7.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/expect[BAD]7_thumbnail_128x171.png",
+            "filename": "felipe-santana-uRA-1WbLfYM-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/felipe-santana-uRA-1WbLfYM-unsplash_thumbnail_128x85.png",
             "type": "thumbnail"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]8.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/test_face/expect[BAD]8.jpg",
+            "filename": "jacques-dillies-9UFbTQiDgKI-unsplash.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/jacques-dillies-9UFbTQiDgKI-unsplash.jpg",
             "type": "original"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/expect[BAD]8_resized.png",
+            "filename": "jacques-dillies-9UFbTQiDgKI-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/jacques-dillies-9UFbTQiDgKI-unsplash_resized.png",
             "type": "resized"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]8_gray.png",
+            "filename": "jacques-dillies-9UFbTQiDgKI-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/jacques-dillies-9UFbTQiDgKI-unsplash_gray.png",
             "type": "color_gray"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]8_rgb.png",
+            "filename": "jacques-dillies-9UFbTQiDgKI-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/jacques-dillies-9UFbTQiDgKI-unsplash_rgb.png",
             "type": "color_rgb"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]8_hsv.png",
+            "filename": "jacques-dillies-9UFbTQiDgKI-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/jacques-dillies-9UFbTQiDgKI-unsplash_hsv.png",
             "type": "color_hsv"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]8_lab.png",
+            "filename": "jacques-dillies-9UFbTQiDgKI-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/jacques-dillies-9UFbTQiDgKI-unsplash_lab.png",
             "type": "color_lab"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]8_ycrcb.png",
+            "filename": "jacques-dillies-9UFbTQiDgKI-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/jacques-dillies-9UFbTQiDgKI-unsplash_ycrcb.png",
             "type": "color_ycrcb"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]8_luv.png",
+            "filename": "jacques-dillies-9UFbTQiDgKI-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/jacques-dillies-9UFbTQiDgKI-unsplash_luv.png",
             "type": "color_luv"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]8.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/expect[BAD]8_thumbnail_128x85.png",
+            "filename": "jacques-dillies-9UFbTQiDgKI-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/jacques-dillies-9UFbTQiDgKI-unsplash_thumbnail_128x160.png",
             "type": "thumbnail"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]9.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/test_face/expect[BAD]9.jpg",
+            "filename": "jason-leung-Xaanw0s0pMk-unsplash.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/jason-leung-Xaanw0s0pMk-unsplash.jpg",
             "type": "original"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/expect[BAD]9_resized.png",
+            "filename": "jason-leung-Xaanw0s0pMk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/jason-leung-Xaanw0s0pMk-unsplash_resized.png",
             "type": "resized"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]9_gray.png",
+            "filename": "jason-leung-Xaanw0s0pMk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/jason-leung-Xaanw0s0pMk-unsplash_gray.png",
             "type": "color_gray"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]9_rgb.png",
+            "filename": "jason-leung-Xaanw0s0pMk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/jason-leung-Xaanw0s0pMk-unsplash_rgb.png",
             "type": "color_rgb"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]9_hsv.png",
+            "filename": "jason-leung-Xaanw0s0pMk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/jason-leung-Xaanw0s0pMk-unsplash_hsv.png",
             "type": "color_hsv"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]9_lab.png",
+            "filename": "jason-leung-Xaanw0s0pMk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/jason-leung-Xaanw0s0pMk-unsplash_lab.png",
             "type": "color_lab"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]9_ycrcb.png",
+            "filename": "jason-leung-Xaanw0s0pMk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/jason-leung-Xaanw0s0pMk-unsplash_ycrcb.png",
             "type": "color_ycrcb"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[BAD]9_luv.png",
+            "filename": "jason-leung-Xaanw0s0pMk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/jason-leung-Xaanw0s0pMk-unsplash_luv.png",
             "type": "color_luv"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[BAD]9.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/expect[BAD]9_thumbnail_128x192.png",
+            "filename": "jason-leung-Xaanw0s0pMk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/jason-leung-Xaanw0s0pMk-unsplash_thumbnail_128x85.png",
             "type": "thumbnail"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]1.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/test_face/expect[GOOD]1.jpg",
+            "filename": "joe-neric-Zsqbptb_j-Y-unsplash.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/joe-neric-Zsqbptb_j-Y-unsplash.jpg",
             "type": "original"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/expect[GOOD]1_resized.png",
+            "filename": "joe-neric-Zsqbptb_j-Y-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/joe-neric-Zsqbptb_j-Y-unsplash_resized.png",
             "type": "resized"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]1_gray.png",
+            "filename": "joe-neric-Zsqbptb_j-Y-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/joe-neric-Zsqbptb_j-Y-unsplash_gray.png",
             "type": "color_gray"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]1_rgb.png",
+            "filename": "joe-neric-Zsqbptb_j-Y-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/joe-neric-Zsqbptb_j-Y-unsplash_rgb.png",
             "type": "color_rgb"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]1_hsv.png",
+            "filename": "joe-neric-Zsqbptb_j-Y-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/joe-neric-Zsqbptb_j-Y-unsplash_hsv.png",
             "type": "color_hsv"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]1_lab.png",
+            "filename": "joe-neric-Zsqbptb_j-Y-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/joe-neric-Zsqbptb_j-Y-unsplash_lab.png",
             "type": "color_lab"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]1_ycrcb.png",
+            "filename": "joe-neric-Zsqbptb_j-Y-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/joe-neric-Zsqbptb_j-Y-unsplash_ycrcb.png",
             "type": "color_ycrcb"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]1_luv.png",
+            "filename": "joe-neric-Zsqbptb_j-Y-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/joe-neric-Zsqbptb_j-Y-unsplash_luv.png",
             "type": "color_luv"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]1.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/expect[GOOD]1_thumbnail_128x85.png",
+            "filename": "joe-neric-Zsqbptb_j-Y-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/joe-neric-Zsqbptb_j-Y-unsplash_thumbnail_128x192.png",
             "type": "thumbnail"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]2.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/test_face/expect[GOOD]2.jpg",
+            "filename": "jonas-jaeken-WY1AqSH4dUQ-unsplash.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/jonas-jaeken-WY1AqSH4dUQ-unsplash.jpg",
             "type": "original"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/expect[GOOD]2_resized.png",
+            "filename": "jonas-jaeken-WY1AqSH4dUQ-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/jonas-jaeken-WY1AqSH4dUQ-unsplash_resized.png",
             "type": "resized"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]2_gray.png",
+            "filename": "jonas-jaeken-WY1AqSH4dUQ-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/jonas-jaeken-WY1AqSH4dUQ-unsplash_gray.png",
             "type": "color_gray"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]2_rgb.png",
+            "filename": "jonas-jaeken-WY1AqSH4dUQ-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/jonas-jaeken-WY1AqSH4dUQ-unsplash_rgb.png",
             "type": "color_rgb"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]2_hsv.png",
+            "filename": "jonas-jaeken-WY1AqSH4dUQ-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/jonas-jaeken-WY1AqSH4dUQ-unsplash_hsv.png",
             "type": "color_hsv"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]2_lab.png",
+            "filename": "jonas-jaeken-WY1AqSH4dUQ-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/jonas-jaeken-WY1AqSH4dUQ-unsplash_lab.png",
             "type": "color_lab"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]2_ycrcb.png",
+            "filename": "jonas-jaeken-WY1AqSH4dUQ-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/jonas-jaeken-WY1AqSH4dUQ-unsplash_ycrcb.png",
             "type": "color_ycrcb"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]2_luv.png",
+            "filename": "jonas-jaeken-WY1AqSH4dUQ-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/jonas-jaeken-WY1AqSH4dUQ-unsplash_luv.png",
             "type": "color_luv"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]2.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/expect[GOOD]2_thumbnail_128x192.png",
+            "filename": "jonas-jaeken-WY1AqSH4dUQ-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/jonas-jaeken-WY1AqSH4dUQ-unsplash_thumbnail_128x192.png",
             "type": "thumbnail"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]3.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/test_face/expect[GOOD]3.jpg",
+            "filename": "lennon-cheng-Yix_9uJ8pBk-unsplash.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/lennon-cheng-Yix_9uJ8pBk-unsplash.jpg",
             "type": "original"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/expect[GOOD]3_resized.png",
+            "filename": "lennon-cheng-Yix_9uJ8pBk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/lennon-cheng-Yix_9uJ8pBk-unsplash_resized.png",
             "type": "resized"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]3_gray.png",
+            "filename": "lennon-cheng-Yix_9uJ8pBk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/lennon-cheng-Yix_9uJ8pBk-unsplash_gray.png",
             "type": "color_gray"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]3_rgb.png",
+            "filename": "lennon-cheng-Yix_9uJ8pBk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/lennon-cheng-Yix_9uJ8pBk-unsplash_rgb.png",
             "type": "color_rgb"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]3_hsv.png",
+            "filename": "lennon-cheng-Yix_9uJ8pBk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/lennon-cheng-Yix_9uJ8pBk-unsplash_hsv.png",
             "type": "color_hsv"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]3_lab.png",
+            "filename": "lennon-cheng-Yix_9uJ8pBk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/lennon-cheng-Yix_9uJ8pBk-unsplash_lab.png",
             "type": "color_lab"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]3_ycrcb.png",
+            "filename": "lennon-cheng-Yix_9uJ8pBk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/lennon-cheng-Yix_9uJ8pBk-unsplash_ycrcb.png",
             "type": "color_ycrcb"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]3_luv.png",
+            "filename": "lennon-cheng-Yix_9uJ8pBk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/lennon-cheng-Yix_9uJ8pBk-unsplash_luv.png",
             "type": "color_luv"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]3.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/expect[GOOD]3_thumbnail_128x192.png",
+            "filename": "lennon-cheng-Yix_9uJ8pBk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/lennon-cheng-Yix_9uJ8pBk-unsplash_thumbnail_128x227.png",
             "type": "thumbnail"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]4.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/test_face/expect[GOOD]4.jpg",
+            "filename": "mourad-saadi-GyDktTa0Nmw-unsplash.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/mourad-saadi-GyDktTa0Nmw-unsplash.jpg",
             "type": "original"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/expect[GOOD]4_resized.png",
+            "filename": "mourad-saadi-GyDktTa0Nmw-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/mourad-saadi-GyDktTa0Nmw-unsplash_resized.png",
             "type": "resized"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]4_gray.png",
+            "filename": "mourad-saadi-GyDktTa0Nmw-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/mourad-saadi-GyDktTa0Nmw-unsplash_gray.png",
             "type": "color_gray"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]4_rgb.png",
+            "filename": "mourad-saadi-GyDktTa0Nmw-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/mourad-saadi-GyDktTa0Nmw-unsplash_rgb.png",
             "type": "color_rgb"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]4_hsv.png",
+            "filename": "mourad-saadi-GyDktTa0Nmw-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/mourad-saadi-GyDktTa0Nmw-unsplash_hsv.png",
             "type": "color_hsv"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]4_lab.png",
+            "filename": "mourad-saadi-GyDktTa0Nmw-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/mourad-saadi-GyDktTa0Nmw-unsplash_lab.png",
             "type": "color_lab"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]4_ycrcb.png",
+            "filename": "mourad-saadi-GyDktTa0Nmw-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/mourad-saadi-GyDktTa0Nmw-unsplash_ycrcb.png",
             "type": "color_ycrcb"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]4_luv.png",
+            "filename": "mourad-saadi-GyDktTa0Nmw-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/mourad-saadi-GyDktTa0Nmw-unsplash_luv.png",
             "type": "color_luv"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]4.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/expect[GOOD]4_thumbnail_128x160.png",
+            "filename": "mourad-saadi-GyDktTa0Nmw-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/mourad-saadi-GyDktTa0Nmw-unsplash_thumbnail_128x191.png",
             "type": "thumbnail"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]5.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/test_face/expect[GOOD]5.jpg",
+            "filename": "ola-szkolda-eI2XIubCNcc-unsplash.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/ola-szkolda-eI2XIubCNcc-unsplash.jpg",
             "type": "original"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/expect[GOOD]5_resized.png",
+            "filename": "ola-szkolda-eI2XIubCNcc-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/ola-szkolda-eI2XIubCNcc-unsplash_resized.png",
             "type": "resized"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]5_gray.png",
+            "filename": "ola-szkolda-eI2XIubCNcc-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/ola-szkolda-eI2XIubCNcc-unsplash_gray.png",
             "type": "color_gray"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]5_rgb.png",
+            "filename": "ola-szkolda-eI2XIubCNcc-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/ola-szkolda-eI2XIubCNcc-unsplash_rgb.png",
             "type": "color_rgb"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]5_hsv.png",
+            "filename": "ola-szkolda-eI2XIubCNcc-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/ola-szkolda-eI2XIubCNcc-unsplash_hsv.png",
             "type": "color_hsv"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]5_lab.png",
+            "filename": "ola-szkolda-eI2XIubCNcc-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/ola-szkolda-eI2XIubCNcc-unsplash_lab.png",
             "type": "color_lab"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]5_ycrcb.png",
+            "filename": "ola-szkolda-eI2XIubCNcc-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/ola-szkolda-eI2XIubCNcc-unsplash_ycrcb.png",
             "type": "color_ycrcb"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]5_luv.png",
+            "filename": "ola-szkolda-eI2XIubCNcc-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/ola-szkolda-eI2XIubCNcc-unsplash_luv.png",
             "type": "color_luv"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]5.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/expect[GOOD]5_thumbnail_128x85.png",
+            "filename": "ola-szkolda-eI2XIubCNcc-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/ola-szkolda-eI2XIubCNcc-unsplash_thumbnail_128x85.png",
             "type": "thumbnail"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]6.jpg",
-            "path": "/home/leo/ai-pre-process-images/images/test_face/expect[GOOD]6.jpg",
+            "filename": "peter-wang-4QZZw1WyQDg-unsplash.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/peter-wang-4QZZw1WyQDg-unsplash.jpg",
             "type": "original"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/resized/expect[GOOD]6_resized.png",
+            "filename": "peter-wang-4QZZw1WyQDg-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/peter-wang-4QZZw1WyQDg-unsplash_resized.png",
             "type": "resized"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]6_gray.png",
+            "filename": "peter-wang-4QZZw1WyQDg-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/peter-wang-4QZZw1WyQDg-unsplash_gray.png",
             "type": "color_gray"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]6_rgb.png",
+            "filename": "peter-wang-4QZZw1WyQDg-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/peter-wang-4QZZw1WyQDg-unsplash_rgb.png",
             "type": "color_rgb"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]6_hsv.png",
+            "filename": "peter-wang-4QZZw1WyQDg-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/peter-wang-4QZZw1WyQDg-unsplash_hsv.png",
             "type": "color_hsv"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]6_lab.png",
+            "filename": "peter-wang-4QZZw1WyQDg-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/peter-wang-4QZZw1WyQDg-unsplash_lab.png",
             "type": "color_lab"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]6_ycrcb.png",
+            "filename": "peter-wang-4QZZw1WyQDg-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/peter-wang-4QZZw1WyQDg-unsplash_ycrcb.png",
             "type": "color_ycrcb"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/color_spaces/expect[GOOD]6_luv.png",
+            "filename": "peter-wang-4QZZw1WyQDg-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/peter-wang-4QZZw1WyQDg-unsplash_luv.png",
             "type": "color_luv"
         },
         {
             "exif_orientation": 1,
-            "filename": "expect[GOOD]6.jpg",
-            "path": "/home/leo/ai-pre-process-images/./images/temp/thumbs/expect[GOOD]6_thumbnail_128x192.png",
+            "filename": "peter-wang-4QZZw1WyQDg-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/peter-wang-4QZZw1WyQDg-unsplash_thumbnail_128x85.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-a-darmel-6940144.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/pexels-a-darmel-6940144.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-a-darmel-6940144.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/pexels-a-darmel-6940144_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-a-darmel-6940144.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-a-darmel-6940144_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-a-darmel-6940144.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-a-darmel-6940144_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-a-darmel-6940144.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-a-darmel-6940144_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-a-darmel-6940144.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-a-darmel-6940144_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-a-darmel-6940144.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-a-darmel-6940144_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-a-darmel-6940144.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-a-darmel-6940144_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-a-darmel-6940144.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/pexels-a-darmel-6940144_thumbnail_128x192.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-clickerhappy-907.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/pexels-clickerhappy-907.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-clickerhappy-907.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/pexels-clickerhappy-907_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-clickerhappy-907.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-clickerhappy-907_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-clickerhappy-907.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-clickerhappy-907_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-clickerhappy-907.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-clickerhappy-907_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-clickerhappy-907.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-clickerhappy-907_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-clickerhappy-907.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-clickerhappy-907_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-clickerhappy-907.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-clickerhappy-907_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-clickerhappy-907.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/pexels-clickerhappy-907_thumbnail_128x85.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-eduraw-35982140.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/pexels-eduraw-35982140.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-eduraw-35982140.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/pexels-eduraw-35982140_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-eduraw-35982140.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-eduraw-35982140_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-eduraw-35982140.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-eduraw-35982140_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-eduraw-35982140.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-eduraw-35982140_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-eduraw-35982140.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-eduraw-35982140_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-eduraw-35982140.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-eduraw-35982140_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-eduraw-35982140.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-eduraw-35982140_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-eduraw-35982140.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/pexels-eduraw-35982140_thumbnail_128x85.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-joshua-hurricks-1622104-7969559.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/pexels-joshua-hurricks-1622104-7969559.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-joshua-hurricks-1622104-7969559.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/pexels-joshua-hurricks-1622104-7969559_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-joshua-hurricks-1622104-7969559.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-joshua-hurricks-1622104-7969559_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-joshua-hurricks-1622104-7969559.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-joshua-hurricks-1622104-7969559_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-joshua-hurricks-1622104-7969559.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-joshua-hurricks-1622104-7969559_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-joshua-hurricks-1622104-7969559.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-joshua-hurricks-1622104-7969559_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-joshua-hurricks-1622104-7969559.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-joshua-hurricks-1622104-7969559_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-joshua-hurricks-1622104-7969559.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-joshua-hurricks-1622104-7969559_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-joshua-hurricks-1622104-7969559.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/pexels-joshua-hurricks-1622104-7969559_thumbnail_128x221.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-liliana-drew-8498125.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/pexels-liliana-drew-8498125.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-liliana-drew-8498125.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/pexels-liliana-drew-8498125_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-liliana-drew-8498125.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-liliana-drew-8498125_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-liliana-drew-8498125.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-liliana-drew-8498125_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-liliana-drew-8498125.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-liliana-drew-8498125_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-liliana-drew-8498125.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-liliana-drew-8498125_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-liliana-drew-8498125.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-liliana-drew-8498125_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-liliana-drew-8498125.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-liliana-drew-8498125_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-liliana-drew-8498125.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/pexels-liliana-drew-8498125_thumbnail_128x85.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-luis-arroyave-606856168-35036743.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/pexels-luis-arroyave-606856168-35036743.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-luis-arroyave-606856168-35036743.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/pexels-luis-arroyave-606856168-35036743_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-luis-arroyave-606856168-35036743.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-luis-arroyave-606856168-35036743_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-luis-arroyave-606856168-35036743.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-luis-arroyave-606856168-35036743_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-luis-arroyave-606856168-35036743.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-luis-arroyave-606856168-35036743_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-luis-arroyave-606856168-35036743.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-luis-arroyave-606856168-35036743_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-luis-arroyave-606856168-35036743.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-luis-arroyave-606856168-35036743_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-luis-arroyave-606856168-35036743.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-luis-arroyave-606856168-35036743_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-luis-arroyave-606856168-35036743.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/pexels-luis-arroyave-606856168-35036743_thumbnail_128x227.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-mohammad-jumaa-708215.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/pexels-mohammad-jumaa-708215.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-mohammad-jumaa-708215.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/pexels-mohammad-jumaa-708215_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-mohammad-jumaa-708215.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-mohammad-jumaa-708215_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-mohammad-jumaa-708215.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-mohammad-jumaa-708215_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-mohammad-jumaa-708215.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-mohammad-jumaa-708215_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-mohammad-jumaa-708215.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-mohammad-jumaa-708215_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-mohammad-jumaa-708215.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-mohammad-jumaa-708215_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-mohammad-jumaa-708215.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-mohammad-jumaa-708215_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-mohammad-jumaa-708215.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/pexels-mohammad-jumaa-708215_thumbnail_128x96.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-nabokovin-8333279.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/pexels-nabokovin-8333279.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-nabokovin-8333279.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/pexels-nabokovin-8333279_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-nabokovin-8333279.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-nabokovin-8333279_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-nabokovin-8333279.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-nabokovin-8333279_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-nabokovin-8333279.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-nabokovin-8333279_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-nabokovin-8333279.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-nabokovin-8333279_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-nabokovin-8333279.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-nabokovin-8333279_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-nabokovin-8333279.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-nabokovin-8333279_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-nabokovin-8333279.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/pexels-nabokovin-8333279_thumbnail_128x192.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-noe-garde-2150865147-36492599.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/pexels-noe-garde-2150865147-36492599.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-noe-garde-2150865147-36492599.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/pexels-noe-garde-2150865147-36492599_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-noe-garde-2150865147-36492599.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-noe-garde-2150865147-36492599_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-noe-garde-2150865147-36492599.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-noe-garde-2150865147-36492599_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-noe-garde-2150865147-36492599.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-noe-garde-2150865147-36492599_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-noe-garde-2150865147-36492599.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-noe-garde-2150865147-36492599_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-noe-garde-2150865147-36492599.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-noe-garde-2150865147-36492599_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-noe-garde-2150865147-36492599.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-noe-garde-2150865147-36492599_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-noe-garde-2150865147-36492599.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/pexels-noe-garde-2150865147-36492599_thumbnail_128x192.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-raulling-31896524.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/pexels-raulling-31896524.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-raulling-31896524.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/pexels-raulling-31896524_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-raulling-31896524.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-raulling-31896524_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-raulling-31896524.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-raulling-31896524_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-raulling-31896524.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-raulling-31896524_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-raulling-31896524.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-raulling-31896524_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-raulling-31896524.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-raulling-31896524_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-raulling-31896524.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-raulling-31896524_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-raulling-31896524.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/pexels-raulling-31896524_thumbnail_128x85.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-richard-wu-1662046391-27721815.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/pexels-richard-wu-1662046391-27721815.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-richard-wu-1662046391-27721815.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/pexels-richard-wu-1662046391-27721815_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-richard-wu-1662046391-27721815.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-richard-wu-1662046391-27721815_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-richard-wu-1662046391-27721815.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-richard-wu-1662046391-27721815_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-richard-wu-1662046391-27721815.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-richard-wu-1662046391-27721815_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-richard-wu-1662046391-27721815.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-richard-wu-1662046391-27721815_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-richard-wu-1662046391-27721815.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-richard-wu-1662046391-27721815_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-richard-wu-1662046391-27721815.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-richard-wu-1662046391-27721815_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-richard-wu-1662046391-27721815.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/pexels-richard-wu-1662046391-27721815_thumbnail_128x192.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-sena-b-673546128-17889103.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/pexels-sena-b-673546128-17889103.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-sena-b-673546128-17889103.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/pexels-sena-b-673546128-17889103_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-sena-b-673546128-17889103.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-sena-b-673546128-17889103_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-sena-b-673546128-17889103.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-sena-b-673546128-17889103_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-sena-b-673546128-17889103.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-sena-b-673546128-17889103_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-sena-b-673546128-17889103.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-sena-b-673546128-17889103_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-sena-b-673546128-17889103.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-sena-b-673546128-17889103_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-sena-b-673546128-17889103.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-sena-b-673546128-17889103_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-sena-b-673546128-17889103.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/pexels-sena-b-673546128-17889103_thumbnail_128x170.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-sohanikamat-5252512.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/pexels-sohanikamat-5252512.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-sohanikamat-5252512.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/pexels-sohanikamat-5252512_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-sohanikamat-5252512.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-sohanikamat-5252512_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-sohanikamat-5252512.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-sohanikamat-5252512_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-sohanikamat-5252512.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-sohanikamat-5252512_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-sohanikamat-5252512.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-sohanikamat-5252512_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-sohanikamat-5252512.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-sohanikamat-5252512_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-sohanikamat-5252512.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-sohanikamat-5252512_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-sohanikamat-5252512.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/pexels-sohanikamat-5252512_thumbnail_128x192.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-stephen-leonardi-587681991-35748824.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/pexels-stephen-leonardi-587681991-35748824.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-stephen-leonardi-587681991-35748824.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/pexels-stephen-leonardi-587681991-35748824_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-stephen-leonardi-587681991-35748824.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-stephen-leonardi-587681991-35748824_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-stephen-leonardi-587681991-35748824.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-stephen-leonardi-587681991-35748824_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-stephen-leonardi-587681991-35748824.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-stephen-leonardi-587681991-35748824_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-stephen-leonardi-587681991-35748824.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-stephen-leonardi-587681991-35748824_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-stephen-leonardi-587681991-35748824.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-stephen-leonardi-587681991-35748824_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-stephen-leonardi-587681991-35748824.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-stephen-leonardi-587681991-35748824_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-stephen-leonardi-587681991-35748824.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/pexels-stephen-leonardi-587681991-35748824_thumbnail_128x192.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-stijn-dijkstra-1306815-18764174.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/pexels-stijn-dijkstra-1306815-18764174.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-stijn-dijkstra-1306815-18764174.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/pexels-stijn-dijkstra-1306815-18764174_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-stijn-dijkstra-1306815-18764174.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-stijn-dijkstra-1306815-18764174_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-stijn-dijkstra-1306815-18764174.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-stijn-dijkstra-1306815-18764174_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-stijn-dijkstra-1306815-18764174.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-stijn-dijkstra-1306815-18764174_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-stijn-dijkstra-1306815-18764174.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-stijn-dijkstra-1306815-18764174_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-stijn-dijkstra-1306815-18764174.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-stijn-dijkstra-1306815-18764174_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-stijn-dijkstra-1306815-18764174.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-stijn-dijkstra-1306815-18764174_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-stijn-dijkstra-1306815-18764174.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/pexels-stijn-dijkstra-1306815-18764174_thumbnail_128x192.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-uriel-pacheco-2148562938-36530226.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/pexels-uriel-pacheco-2148562938-36530226.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-uriel-pacheco-2148562938-36530226.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/pexels-uriel-pacheco-2148562938-36530226_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-uriel-pacheco-2148562938-36530226.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-uriel-pacheco-2148562938-36530226_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-uriel-pacheco-2148562938-36530226.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-uriel-pacheco-2148562938-36530226_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-uriel-pacheco-2148562938-36530226.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-uriel-pacheco-2148562938-36530226_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-uriel-pacheco-2148562938-36530226.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-uriel-pacheco-2148562938-36530226_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-uriel-pacheco-2148562938-36530226.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-uriel-pacheco-2148562938-36530226_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-uriel-pacheco-2148562938-36530226.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/pexels-uriel-pacheco-2148562938-36530226_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "pexels-uriel-pacheco-2148562938-36530226.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/pexels-uriel-pacheco-2148562938-36530226_thumbnail_128x227.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ray-hennessy-gdTxVSAE5sk-unsplash.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/ray-hennessy-gdTxVSAE5sk-unsplash.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ray-hennessy-gdTxVSAE5sk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/ray-hennessy-gdTxVSAE5sk-unsplash_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ray-hennessy-gdTxVSAE5sk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/ray-hennessy-gdTxVSAE5sk-unsplash_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ray-hennessy-gdTxVSAE5sk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/ray-hennessy-gdTxVSAE5sk-unsplash_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ray-hennessy-gdTxVSAE5sk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/ray-hennessy-gdTxVSAE5sk-unsplash_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ray-hennessy-gdTxVSAE5sk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/ray-hennessy-gdTxVSAE5sk-unsplash_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ray-hennessy-gdTxVSAE5sk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/ray-hennessy-gdTxVSAE5sk-unsplash_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ray-hennessy-gdTxVSAE5sk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/ray-hennessy-gdTxVSAE5sk-unsplash_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ray-hennessy-gdTxVSAE5sk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/ray-hennessy-gdTxVSAE5sk-unsplash_thumbnail_128x85.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "robert-v-ruggiero-XOzA_9zvOXA-unsplash.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/robert-v-ruggiero-XOzA_9zvOXA-unsplash.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "robert-v-ruggiero-XOzA_9zvOXA-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/robert-v-ruggiero-XOzA_9zvOXA-unsplash_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "robert-v-ruggiero-XOzA_9zvOXA-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/robert-v-ruggiero-XOzA_9zvOXA-unsplash_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "robert-v-ruggiero-XOzA_9zvOXA-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/robert-v-ruggiero-XOzA_9zvOXA-unsplash_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "robert-v-ruggiero-XOzA_9zvOXA-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/robert-v-ruggiero-XOzA_9zvOXA-unsplash_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "robert-v-ruggiero-XOzA_9zvOXA-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/robert-v-ruggiero-XOzA_9zvOXA-unsplash_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "robert-v-ruggiero-XOzA_9zvOXA-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/robert-v-ruggiero-XOzA_9zvOXA-unsplash_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "robert-v-ruggiero-XOzA_9zvOXA-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/robert-v-ruggiero-XOzA_9zvOXA-unsplash_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "robert-v-ruggiero-XOzA_9zvOXA-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/robert-v-ruggiero-XOzA_9zvOXA-unsplash_thumbnail_128x85.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "roberto-nickson-WvRMzYER6FM-unsplash.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/roberto-nickson-WvRMzYER6FM-unsplash.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "roberto-nickson-WvRMzYER6FM-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/roberto-nickson-WvRMzYER6FM-unsplash_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "roberto-nickson-WvRMzYER6FM-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/roberto-nickson-WvRMzYER6FM-unsplash_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "roberto-nickson-WvRMzYER6FM-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/roberto-nickson-WvRMzYER6FM-unsplash_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "roberto-nickson-WvRMzYER6FM-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/roberto-nickson-WvRMzYER6FM-unsplash_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "roberto-nickson-WvRMzYER6FM-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/roberto-nickson-WvRMzYER6FM-unsplash_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "roberto-nickson-WvRMzYER6FM-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/roberto-nickson-WvRMzYER6FM-unsplash_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "roberto-nickson-WvRMzYER6FM-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/roberto-nickson-WvRMzYER6FM-unsplash_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "roberto-nickson-WvRMzYER6FM-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/roberto-nickson-WvRMzYER6FM-unsplash_thumbnail_128x85.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ruth-gledhill-cd3Uxp19moo-unsplash.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/ruth-gledhill-cd3Uxp19moo-unsplash.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ruth-gledhill-cd3Uxp19moo-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/ruth-gledhill-cd3Uxp19moo-unsplash_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ruth-gledhill-cd3Uxp19moo-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/ruth-gledhill-cd3Uxp19moo-unsplash_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ruth-gledhill-cd3Uxp19moo-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/ruth-gledhill-cd3Uxp19moo-unsplash_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ruth-gledhill-cd3Uxp19moo-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/ruth-gledhill-cd3Uxp19moo-unsplash_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ruth-gledhill-cd3Uxp19moo-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/ruth-gledhill-cd3Uxp19moo-unsplash_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ruth-gledhill-cd3Uxp19moo-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/ruth-gledhill-cd3Uxp19moo-unsplash_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ruth-gledhill-cd3Uxp19moo-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/ruth-gledhill-cd3Uxp19moo-unsplash_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ruth-gledhill-cd3Uxp19moo-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/ruth-gledhill-cd3Uxp19moo-unsplash_thumbnail_128x192.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ryunosuke-kikuno-dW_vGFQ-P2M-unsplash.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/ryunosuke-kikuno-dW_vGFQ-P2M-unsplash.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ryunosuke-kikuno-dW_vGFQ-P2M-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/ryunosuke-kikuno-dW_vGFQ-P2M-unsplash_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ryunosuke-kikuno-dW_vGFQ-P2M-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/ryunosuke-kikuno-dW_vGFQ-P2M-unsplash_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ryunosuke-kikuno-dW_vGFQ-P2M-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/ryunosuke-kikuno-dW_vGFQ-P2M-unsplash_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ryunosuke-kikuno-dW_vGFQ-P2M-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/ryunosuke-kikuno-dW_vGFQ-P2M-unsplash_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ryunosuke-kikuno-dW_vGFQ-P2M-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/ryunosuke-kikuno-dW_vGFQ-P2M-unsplash_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ryunosuke-kikuno-dW_vGFQ-P2M-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/ryunosuke-kikuno-dW_vGFQ-P2M-unsplash_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ryunosuke-kikuno-dW_vGFQ-P2M-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/ryunosuke-kikuno-dW_vGFQ-P2M-unsplash_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ryunosuke-kikuno-dW_vGFQ-P2M-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/ryunosuke-kikuno-dW_vGFQ-P2M-unsplash_thumbnail_128x192.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ryunosuke-kikuno-rXiwVhO9vN8-unsplash.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/ryunosuke-kikuno-rXiwVhO9vN8-unsplash.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ryunosuke-kikuno-rXiwVhO9vN8-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/ryunosuke-kikuno-rXiwVhO9vN8-unsplash_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ryunosuke-kikuno-rXiwVhO9vN8-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/ryunosuke-kikuno-rXiwVhO9vN8-unsplash_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ryunosuke-kikuno-rXiwVhO9vN8-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/ryunosuke-kikuno-rXiwVhO9vN8-unsplash_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ryunosuke-kikuno-rXiwVhO9vN8-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/ryunosuke-kikuno-rXiwVhO9vN8-unsplash_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ryunosuke-kikuno-rXiwVhO9vN8-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/ryunosuke-kikuno-rXiwVhO9vN8-unsplash_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ryunosuke-kikuno-rXiwVhO9vN8-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/ryunosuke-kikuno-rXiwVhO9vN8-unsplash_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ryunosuke-kikuno-rXiwVhO9vN8-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/ryunosuke-kikuno-rXiwVhO9vN8-unsplash_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "ryunosuke-kikuno-rXiwVhO9vN8-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/ryunosuke-kikuno-rXiwVhO9vN8-unsplash_thumbnail_128x191.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "santosh-313-I-YUITHQPCY-unsplash.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/santosh-313-I-YUITHQPCY-unsplash.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "santosh-313-I-YUITHQPCY-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/santosh-313-I-YUITHQPCY-unsplash_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "santosh-313-I-YUITHQPCY-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/santosh-313-I-YUITHQPCY-unsplash_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "santosh-313-I-YUITHQPCY-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/santosh-313-I-YUITHQPCY-unsplash_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "santosh-313-I-YUITHQPCY-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/santosh-313-I-YUITHQPCY-unsplash_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "santosh-313-I-YUITHQPCY-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/santosh-313-I-YUITHQPCY-unsplash_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "santosh-313-I-YUITHQPCY-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/santosh-313-I-YUITHQPCY-unsplash_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "santosh-313-I-YUITHQPCY-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/santosh-313-I-YUITHQPCY-unsplash_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "santosh-313-I-YUITHQPCY-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/santosh-313-I-YUITHQPCY-unsplash_thumbnail_128x192.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "sergi-viladesau-dyrehVIidQk-unsplash.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/sergi-viladesau-dyrehVIidQk-unsplash.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "sergi-viladesau-dyrehVIidQk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/sergi-viladesau-dyrehVIidQk-unsplash_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "sergi-viladesau-dyrehVIidQk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/sergi-viladesau-dyrehVIidQk-unsplash_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "sergi-viladesau-dyrehVIidQk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/sergi-viladesau-dyrehVIidQk-unsplash_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "sergi-viladesau-dyrehVIidQk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/sergi-viladesau-dyrehVIidQk-unsplash_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "sergi-viladesau-dyrehVIidQk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/sergi-viladesau-dyrehVIidQk-unsplash_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "sergi-viladesau-dyrehVIidQk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/sergi-viladesau-dyrehVIidQk-unsplash_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "sergi-viladesau-dyrehVIidQk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/sergi-viladesau-dyrehVIidQk-unsplash_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "sergi-viladesau-dyrehVIidQk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/sergi-viladesau-dyrehVIidQk-unsplash_thumbnail_128x243.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "steven-lelham-atSaEOeE8Nk-unsplash.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/steven-lelham-atSaEOeE8Nk-unsplash.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "steven-lelham-atSaEOeE8Nk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/steven-lelham-atSaEOeE8Nk-unsplash_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "steven-lelham-atSaEOeE8Nk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/steven-lelham-atSaEOeE8Nk-unsplash_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "steven-lelham-atSaEOeE8Nk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/steven-lelham-atSaEOeE8Nk-unsplash_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "steven-lelham-atSaEOeE8Nk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/steven-lelham-atSaEOeE8Nk-unsplash_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "steven-lelham-atSaEOeE8Nk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/steven-lelham-atSaEOeE8Nk-unsplash_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "steven-lelham-atSaEOeE8Nk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/steven-lelham-atSaEOeE8Nk-unsplash_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "steven-lelham-atSaEOeE8Nk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/steven-lelham-atSaEOeE8Nk-unsplash_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "steven-lelham-atSaEOeE8Nk-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/steven-lelham-atSaEOeE8Nk-unsplash_thumbnail_128x67.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "susan-wilkinson-JYH5KDzwM_M-unsplash.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/susan-wilkinson-JYH5KDzwM_M-unsplash.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "susan-wilkinson-JYH5KDzwM_M-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/susan-wilkinson-JYH5KDzwM_M-unsplash_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "susan-wilkinson-JYH5KDzwM_M-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/susan-wilkinson-JYH5KDzwM_M-unsplash_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "susan-wilkinson-JYH5KDzwM_M-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/susan-wilkinson-JYH5KDzwM_M-unsplash_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "susan-wilkinson-JYH5KDzwM_M-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/susan-wilkinson-JYH5KDzwM_M-unsplash_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "susan-wilkinson-JYH5KDzwM_M-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/susan-wilkinson-JYH5KDzwM_M-unsplash_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "susan-wilkinson-JYH5KDzwM_M-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/susan-wilkinson-JYH5KDzwM_M-unsplash_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "susan-wilkinson-JYH5KDzwM_M-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/susan-wilkinson-JYH5KDzwM_M-unsplash_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "susan-wilkinson-JYH5KDzwM_M-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/susan-wilkinson-JYH5KDzwM_M-unsplash_thumbnail_128x164.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "venti-views--UYedjT31zY-unsplash.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/venti-views--UYedjT31zY-unsplash.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "venti-views--UYedjT31zY-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/venti-views--UYedjT31zY-unsplash_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "venti-views--UYedjT31zY-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/venti-views--UYedjT31zY-unsplash_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "venti-views--UYedjT31zY-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/venti-views--UYedjT31zY-unsplash_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "venti-views--UYedjT31zY-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/venti-views--UYedjT31zY-unsplash_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "venti-views--UYedjT31zY-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/venti-views--UYedjT31zY-unsplash_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "venti-views--UYedjT31zY-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/venti-views--UYedjT31zY-unsplash_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "venti-views--UYedjT31zY-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/venti-views--UYedjT31zY-unsplash_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "venti-views--UYedjT31zY-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/venti-views--UYedjT31zY-unsplash_thumbnail_128x108.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "yns-plt-1uDz30zpb6c-unsplash.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/yns-plt-1uDz30zpb6c-unsplash.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "yns-plt-1uDz30zpb6c-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/yns-plt-1uDz30zpb6c-unsplash_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "yns-plt-1uDz30zpb6c-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/yns-plt-1uDz30zpb6c-unsplash_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "yns-plt-1uDz30zpb6c-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/yns-plt-1uDz30zpb6c-unsplash_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "yns-plt-1uDz30zpb6c-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/yns-plt-1uDz30zpb6c-unsplash_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "yns-plt-1uDz30zpb6c-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/yns-plt-1uDz30zpb6c-unsplash_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "yns-plt-1uDz30zpb6c-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/yns-plt-1uDz30zpb6c-unsplash_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "yns-plt-1uDz30zpb6c-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/yns-plt-1uDz30zpb6c-unsplash_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "yns-plt-1uDz30zpb6c-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/yns-plt-1uDz30zpb6c-unsplash_thumbnail_128x85.png",
+            "type": "thumbnail"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "yw-cheung-jyap02dGMeE-unsplash.jpg",
+            "path": "/home/belforz/dataset/vitalidade/candidatas_vitalidade/yw-cheung-jyap02dGMeE-unsplash.jpg",
+            "type": "original"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "yw-cheung-jyap02dGMeE-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/resized/yw-cheung-jyap02dGMeE-unsplash_resized.png",
+            "type": "resized"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "yw-cheung-jyap02dGMeE-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/yw-cheung-jyap02dGMeE-unsplash_gray.png",
+            "type": "color_gray"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "yw-cheung-jyap02dGMeE-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/yw-cheung-jyap02dGMeE-unsplash_rgb.png",
+            "type": "color_rgb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "yw-cheung-jyap02dGMeE-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/yw-cheung-jyap02dGMeE-unsplash_hsv.png",
+            "type": "color_hsv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "yw-cheung-jyap02dGMeE-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/yw-cheung-jyap02dGMeE-unsplash_lab.png",
+            "type": "color_lab"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "yw-cheung-jyap02dGMeE-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/yw-cheung-jyap02dGMeE-unsplash_ycrcb.png",
+            "type": "color_ycrcb"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "yw-cheung-jyap02dGMeE-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/color_spaces/yw-cheung-jyap02dGMeE-unsplash_luv.png",
+            "type": "color_luv"
+        },
+        {
+            "exif_orientation": 1,
+            "filename": "yw-cheung-jyap02dGMeE-unsplash.jpg",
+            "path": "/home/belforz/ai-pre-process-images/./images/temp/thumbs/yw-cheung-jyap02dGMeE-unsplash_thumbnail_128x85.png",
             "type": "thumbnail"
         }
     ]
