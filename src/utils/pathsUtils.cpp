@@ -22,15 +22,18 @@ bool isValidPath(const std::string &path) {
     if (path.find('\0') != std::string::npos) return false; // Impede caracteres nulos 
     if (path.find("..") != std::string::npos) return false;  // Impede Path Traversal 
 
-    // Definindo as duas bases permitidas 
-    std::string datasetBase = "/home/belforz/dataset/vitalidade/candidatas_vitalidade";
-    
+    // Definindo as bases permitidas
+    std::string datasetBase = "/home/belforz/dataset/noturno/candidatas_noturno";
+    // Pasta dinamica de uploads: .../uploads/{uuid}_{YYYYMMDD_HHMMSS}/nome_da_foto.formato
+    std::string uploadsBase = "/home/belforz/photus-system/data/uploads/";
+
     bool isInImages = (path.rfind("images/", 0) == 0);
     bool isInDataset = (path.rfind(datasetBase, 0) == 0);
+    bool isInUploads = (path.rfind(uploadsBase, 0) == 0);
     bool isRootFile = (path.find("/") == std::string::npos); // Arquivo local na raiz [cite: 3]
 
-    // Se NÃO estiver em nenhum dos locais permitidos, rejeita 
-    if (!isInImages && !isInDataset && !isRootFile) {
+    // Se NÃO estiver em nenhum dos locais permitidos, rejeita
+    if (!isInImages && !isInDataset && !isInUploads && !isRootFile) {
         return false;
     }
 

@@ -11,7 +11,7 @@
 
 namespace fs = std::filesystem;
 
-void updateImagesIndex(const std::vector<std::tuple<std::string, std::string, int, std::string>> &imageEntries)
+void updateImagesIndex(const std::vector<std::tuple<std::string, std::string, int, std::string>> &imageEntries, const std::string &category = "")
 {
     std::string indexPath = "local/images_index.json";
     nlohmann::json index;
@@ -55,11 +55,18 @@ void updateImagesIndex(const std::vector<std::tuple<std::string, std::string, in
         }
         if (!exists)
         {
-            std::string folderIndexPath = "home/belforz/dataset/";
-            std::string currentFolderPath = folderIndexPath + path;
-
-            if (!index.contains("category"))
+            if (!category.empty())
             {
+                // Categoria informada explicitamente (ex: category_code do payload,
+                // ou --category do modo manual) tem prioridade sobre a inferencia por path.
+                index["category"] = category;
+                logger.log("Setting category to: " + category, LogLevel::INFO);
+            }
+            else if (!index.contains("category"))
+            {
+                std::string folderIndexPath = "home/belforz/dataset/";
+                std::string currentFolderPath = folderIndexPath + path;
+
                 std::regex rgx("dataset/([^/]+)");
                 std::smatch matches;
                 std::string categoryName = "unknown";
@@ -69,7 +76,7 @@ void updateImagesIndex(const std::vector<std::tuple<std::string, std::string, in
                     categoryName = matches[1].str();
                 }
 
-                index["category"] = categoryName; 
+                index["category"] = categoryName;
                 logger.log("Setting dataset category to: " + categoryName, LogLevel::INFO);
             }
             logger.log("Adding to images index: " + path + " type: " + type, LogLevel::INFO);
@@ -108,7 +115,7 @@ int exifOrientationFromJson(const std::string &jsonPath)
     return 1;
 }
 
-ImageMetadata runPreprocessingPipeline(const std::string &imagePath, std::optional<int> exifOrientation)
+ImageMetadata runPreprocessingPipeline(const std::string &imagePath, std::optional<int> exifOrientation, const std::string &category)
 {
     ImageMetadata metadata;
     PreprocessorState state;
@@ -294,6 +301,6 @@ ImageMetadata runPreprocessingPipeline(const std::string &imagePath, std::option
     }
     metadata.preproc_state = state;
     saveMetadataAsJson(metadata, "local/json/" + metadata.filename + ".metadata.json");
-    updateImagesIndex(imageEntries);
+    updateImagesIndex(imageEntries, category);
     return metadata;
 }
