@@ -79,11 +79,61 @@ Especifique valores de orientação EXIF para cada imagem:
 ./build/ai-preproccessor imagem1.jpg 3 imagem2.png 6
 ```
 
-### Usando o Script Wrapper
+### Com Categoria (modo manual)
+
+Use `--category` para marcar as imagens processadas com uma categoria, que é
+gravada no `local/images_index.json`:
+
+```bash
+./build/ai-preproccessor --category minha_categoria imagem1.jpg imagem2.png 6
+```
+
+### Caminhos de Fotos Aceitos
+
+Além de `images/` e arquivos na raiz, o binário aceita imagens localizadas na
+pasta dinâmica de uploads gerada por upload, no formato:
+
+```
+/home/belforz/photus-system/data/uploads/{uuid}_{YYYYMMDD_HHMMSS}/nome_da_foto.formato
+```
+
+```bash
+./build/ai-preproccessor --category retrato \
+  "/home/belforz/photus-system/data/uploads/3fa1.../foto.jpg"
+```
+
+### Trigger via Payload JSON (integração com IA)
+
+O primeiro argumento também pode ser um payload JSON (em linha ou caminho de
+arquivo) contendo `category_code`. Quando presente, o pré-processamento é
+acionado e a categoria do payload é usada automaticamente no
+`images_index.json`:
+
+```bash
+./build/ai-preproccessor '{"category_code":"simplicidade"}' images/img.png
+```
+
+Veja mais detalhes em [NOTE_PREPROCESS_TRIGGER.md](NOTE_PREPROCESS_TRIGGER.md).
+
+### Usando os Scripts Wrapper
+
+`scripts/executable.sh` é um passthrough simples para o binário:
 
 ```bash
 ./scripts/executable.sh imagem1.jpg 3 imagem2.png
 ```
+
+`scripts/run.sh` faz o mesmo passthrough, mas também aceita `--dir` (pasta de
+fotos, ex: a pasta dinâmica de uploads) e `--category`, expandindo todas as
+imagens suportadas encontradas na pasta:
+
+```bash
+./scripts/run.sh --dir "/home/belforz/photus-system/data/uploads/3fa1..._20260809_160000" \
+  --category retrato
+```
+
+Sem argumentos, `run.sh` processa a pasta de dataset local padrão (uso
+interno/dev). Mais detalhes em [INSTRUCTIONS.md](INSTRUCTIONS.md).
 
 ### Tarefas de Compilação
 
